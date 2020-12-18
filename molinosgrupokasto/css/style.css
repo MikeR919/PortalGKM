@@ -3811,23 +3811,23 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 .product__item__ico--1:before {
   width: 50px;
-  background-image: url(../img/ico/ico_1.png)
+  background-image: url(../img/productos/P-ICONO-ALTAPROT.png)
 }
 .product__item__ico--2:before {
   width: 52px;
-  background-image: url(../img/ico/ico_2.png)
+  background-image: url(../img/productos/P-ICONO-FUERTE.png)
 }
 .product__item__ico--3:before {
   width: 63px;
-  background-image: url(../img/ico/ico_3.png)
+  background-image: url(../img/productos/P-ICONO-SEMI.png)
 }
 .product__item__ico--4:before {
   width: 57px;
-  background-image: url(../img/ico/ico_4.png)
+  background-image: url(../img/productos/P-ICONO-SUAVE.png)
 }
 .product__item__ico--5:before {
   width: 55px;
-  background-image: url(../img/ico/ico_5.png)
+  background-image: url(../img/productos/P-ICONO-TORTILLA.png)
 }
 .product__item__title {
   font-weight: 500
@@ -8500,3 +8500,15 @@ color: #e61644;
 .linea_tiempo{
   font-size: 50px;
 }
+
+.azulk{
+  color: #0f70b7;
+}
+
+.photo_productos {
+  width: 250px;
+  margin-bottom: 25px
+}
+
+
+
