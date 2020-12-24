@@ -1798,8 +1798,9 @@ a.text-dark:hover {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-  -webkit-box-shadow: 0 0 0 8px #4a8b71 inset;
-          box-shadow: 0 0 0 8px #4a8b71 inset
+  -webkit-box-shadow: 0 0 0 8px #0f70b7 inset;
+          box-shadow: 0 0 0 8px #0f70b7 inset
+          /*4a8b71*/
 }
 .boxer-lock {
   overflow: hidden!important
@@ -2359,7 +2360,7 @@ body {
   margin-top: 20px!important
 }
 .owl-theme .owl-dots .owl-dot span {
-  background: #f1cf69;
+  background: #777; /*f1cf69*/
   display: block;
   -webkit-backface-visibility: visible;
   width: 13px;
