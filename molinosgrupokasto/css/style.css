@@ -1798,9 +1798,8 @@ a.text-dark:hover {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-  -webkit-box-shadow: 0 0 0 8px #0f70b7 inset;
-          box-shadow: 0 0 0 8px #0f70b7 inset
-          /*4a8b71*/
+  -webkit-box-shadow: 0 0 0 8px #0f70b7  inset;
+          box-shadow: 0 0 0 8px #0f70b7  inset
 }
 .boxer-lock {
   overflow: hidden!important
@@ -2360,7 +2359,7 @@ body {
   margin-top: 20px!important
 }
 .owl-theme .owl-dots .owl-dot span {
-  background: #777; /*f1cf69*/
+  background: #f1cf69;
   display: block;
   -webkit-backface-visibility: visible;
   width: 13px;
@@ -2666,10 +2665,7 @@ img {
   background-color: #4a8b71
 }
 .section--background-base-light {
-  background-color: #fff
-}
-.section--background-base-dark {
-  background-color: #e7f4fd
+  background-color: #e9f1ee
 }
 .section--with-border {
   border-top: 1px solid #e9e9e9;
@@ -3125,10 +3121,12 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   content: ""
 }
 #top-bar__logo {
+  margin-top: 10px;
   float: left;
-  width: 44px;
-  height: 49px;
-  background-image: url(../img/logogk1.png);
+  width: 135px;
+  height: 46px;
+  background-repeat: no-repeat;
+  background-image: url(../img/logogkm_2.png);
   -webkit-background-size: 100% 100%;
           background-size: 100%
 }
@@ -3437,7 +3435,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 .timeline__title,
 .timeline__year {
-  color: #4a8b71;
+  color: #0f70b7;
   font-weight: 700
 }
 .timeline__year {
@@ -3480,7 +3478,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   font-size: 2rem;
   font-weight: 700;
   font-family: Poppins,sans-serif;
-  color: #4a8b71;
+  color: #0f70b7;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -3603,7 +3601,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   border-color: #f1cf69
 }
 .gallery__item__inner {
-  background-color: #fff;
+  background-color:#fff; /*#4a8b71;*/
   -webkit-transition: background-color .3s ease-in-out;
   -o-transition: background-color .3s ease-in-out;
   transition: background-color .3s ease-in-out
@@ -3634,12 +3632,11 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding:20px;
-  /*text-align: center;*/
+  padding: 20px;
+  text-align: center;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   opacity: 0;
-  position: absolute;
   transform: rotate(90deg);
 }
 .gallery__item figure .gallery__item__title {
@@ -3812,23 +3809,23 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 .product__item__ico--1:before {
   width: 50px;
-  background-image: url(../img/productos/P-ICONO-ALTAPROT.png)
+  background-image: url(../img/ico/P-ICONO-ALTAPROT.png)
 }
 .product__item__ico--2:before {
   width: 52px;
-  background-image: url(../img/productos/P-ICONO-FUERTE.png)
+  background-image: url(../img/ico/P-ICONO-FUERTE.png)
 }
 .product__item__ico--3:before {
   width: 63px;
-  background-image: url(../img/productos/P-ICONO-SEMI.png)
+  background-image: url(../img/ico/P-ICONO-SEMI.png)
 }
 .product__item__ico--4:before {
   width: 57px;
-  background-image: url(../img/productos/P-ICONO-SUAVE.png)
+  background-image: url(../img/ico/P-ICONO-SUAVE.png)
 }
 .product__item__ico--5:before {
   width: 55px;
-  background-image: url(../img/productos/P-ICONO-TORTILLA.png)
+  background-image: url(../img/ico/P-ICONO-TORTILLA.png)
 }
 .product__item__title {
   font-weight: 500
@@ -4121,7 +4118,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   margin-bottom: 50px
 }
 #footer .site-logo {
-  background: url(../img/logogk2.png);
+  background: url(../img/logogkm_2.png);
   width: 253px;
   height: 71px
 }
@@ -4297,32 +4294,32 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .feature--style-1 .feature__item__ico--1:before {
   width: 76px;
   height: 77px;
-  background-image: url(../img/home/icono1.png)
+  background-image: url(../img/ico/icono1.png)
 }
 .feature--style-1 .feature__item__ico--2:before {
   width: 77px;
   height: 76px;
-  background-image: url(../img/home/icono2.png)
+  background-image: url(../img/ico/icono2.png)
 }
 .feature--style-1 .feature__item__ico--3:before {
   width: 83px;
   height: 67px;
-  background-image: url(../img/home/icono3.png)
+  background-image: url(../img/ico/icono3.png)
 }
 .feature--style-1 .feature__item__ico--4:before {
   width: 71px;
   height: 67px;
-  background-image: url(../img/home/icono4.png)
+  background-image: url(../img/ico/icono4.png)
 }
 .feature--style-1 .feature__item__ico--5:before {
   width: 81px;
   height: 72px;
-  background-image: url(../img/home/icono5.png)
+  background-image: url(../img/ico/icono5.png)
 }
 .feature--style-1 .feature__item__ico--6:before {
   width: 81px;
   height: 72px;
-  background-image: url(../img/home/icono6.png)
+  background-image: url(../img/ico/icono6.png)
 }
 .feature--style-2 .feature__item__ico {
   height: 51px;
@@ -5541,7 +5538,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     padding-top: 79px
   }
   .section--custom-1 {
-    /*background: url(../img/bg_02.png) right bottom 30%/80% no-repeat*/
+    background: url(../img/bg_02.png) right bottom 30%/80% no-repeat
   }
   .start-screen--style-2 {
     padding-top: 90px
@@ -5663,7 +5660,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     background-color: transparent!important
   }
   .top-bar--style-1:not(.fixed) #top-bar__logo {
-    background-image: url(../img/logogk3.png)
+    background-image: url(../img/logogkm_1.png)
   }
   .top-bar--style-1:not(.fixed) #top-bar__navigation > ul > li > a:not(:hover):not(:focus) {
     color: #fff
@@ -8475,7 +8472,6 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   }
 }
 
-
 .rojo{
 color: #e61644;
 }
@@ -8497,19 +8493,6 @@ color: #e61644;
   color: #ee7217;
 }
 
-
-.linea_tiempo{
-  font-size: 50px;
+.p_cert{
+  font-size: 20px;
 }
-
-.azulk{
-  color: #0f70b7;
-}
-
-.photo_productos {
-  width: 250px;
-  margin-bottom: 25px
-}
-
-
-

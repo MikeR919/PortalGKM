@@ -9,9 +9,9 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 		<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
 
-		<meta name="theme-color" content="#4A8B71" />
+		<!--<meta name="theme-color" content="#4A8B71" />
 		<meta name="msapplication-navbutton-color" content="#4A8B71" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="#4A8B71" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="#4A8B71" />-->
 
 		<!-- Favicons
 		================================================== -->
@@ -48,13 +48,14 @@
 			_html.className = _html.className.replace("no-js","js");
 		</script>
 		<script type="text/javascript" src="../js/device.min.js"></script>
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	</head>
 	<body class="page page-home">
 
 		<!-- start top bar -->
 		<div id="top-bar" class="top-bar--style-1">
 			<div class="container">
-				<a id="top-bar__logo" class="site-logo" href="index.html">AGRICOM</a>
+				<a id="top-bar__logo" class="site-logo" href="index.html">Grupo Kasto Molinos</a>
 
 				<a id="top-bar__navigation-toggler" href="javascript:void(0);"><span></span></a>
 
@@ -62,25 +63,27 @@
 					<ul>
 						<li class="current">
 							<a href="index.html">Inicio</a>
-							<!--<a href="javascript:void(0);">Inicio</a>-->
-
-							<!--<div class="submenu">
-								<ul>
-									<li class="current"><a href="index.html">Home Style 1</a></li>
-									<li><a href="../style_2/index.html" target="_blank">Home Style 2</a></li>
-									<li><a href="../landing/index.html" target="_blank">One Page</a></li>
-								</ul>
-							</div>-->
 						</li>
 						<li>
 							<a href="javascript:void(0);">Nosotros</a>
 
 							<div class="submenu">
 								<ul>
-									<li><a href="nosotros.html">Filosofía</a></li>
+									<li><a href="filosofia.html">Filosofía</a></li>
 									<li><a href="certificaciones.html">Certificaciones</a></li>
-									<!--<li><a href="product_case.html">product case</a></li>
-									<li><a href="404.html">404 page</a></li>-->
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0);">Galeria</a>
+
+							<div class="submenu">
+								<ul>
+									<li><a href="gallery_1.html">2 Columns</a></li>
+									<li><a href="gallery_2.html">3 Columns</a></li>
+									<li><a href="gallery_3.html">4 Columns</a></li>
+									<li><a href="gallery_4.html">Masonry</a></li>
+									<li><a href="gallery_5.html">Masonry 2</a></li>
 								</ul>
 							</div>
 						</li>
@@ -89,14 +92,9 @@
 
 							<div class="submenu">
 								<ul>
-									<li><a href="products.html">Harina de Trigo</a></li>
-									<li><a href="products_mix.html">Grupo Kasto Bakery Mix</a></li>
-									<li><a href="products.html">Sabor de la Abuela</a></li>
-									<!--<li><a href="gallery_1.html">2 Columns</a></li>
-									<li><a href="gallery_2.html">3 Columns</a></li>
-									<li><a href="gallery_3.html">4 Columns</a></li>
-									<li><a href="gallery_4.html">Masonry</a></li>
-									<li><a href="gallery_5.html">Masonry 2</a></li>-->
+									<li><a href="p_trigo.html">Harina de trigo</a></li>
+									<li><a href="p_mix.html">Bakery MIX</a></li>
+									<li><a href="products.html">Sabor de la abuela</a></li>
 								</ul>
 							</div>
 						</li>
@@ -105,8 +103,7 @@
 						<li><a class="fontello-facebook" href="https://www.facebook.com/grupokastomolinos" target="_blank"></a></li>
 						<li><a class="fontello-instagram" href="https://www.instagram.com/grupokasto/" target="_blank"></a></li>
 						<li><a class="fontello-whatsapp" href="#" target="_blank"></a></li>
-
-						<li class="li-btn"><a class="custom-btn primary" href="#spy-get-in-touch">contáctanos</a></li>
+						<li class="li-btn"><a class="custom-btn primary" href="#spy-get-in-touch">Contáctanos</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -117,19 +114,23 @@
 		<header id="start-screen" class="start-screen--style-1">
 			<div id="vegas-slider" data-dots="true">
 				<div class="vegas-control">
-					<span id="vegas-control__prev" class="vegas-control__btn">Anterior</span>
+					<span id="vegas-control__prev" class="vegas-control__btn">Anerior</span>
 					<span id="vegas-control__next" class="vegas-control__btn">Siguiente</span>
 				</div>
 			</div>
 
 			<div id="start-screen_content-container">
-				<div class="start-screen__content start-screen__content-third">
+				<div class="start-screen__content start-screen__content-first">
 					<div class="v-align">
 						<div class="v-middle">
 							<div class="container">
-								<div class="row">
-									<div class="col-12 col-md-8">
+								<div class="row justify-content-center text-justify">
+									<div class="col-12 col-xl-10">
 										<p class="title">Grupo Kasto Molinos</p>
+
+										<p class="subtitle">
+											¡Sabemos a trigo…Sabemos de trigo!
+										</p>
 									</div>
 								</div>
 							</div>
@@ -137,13 +138,17 @@
 					</div>
 				</div>
 
-				<div class="start-screen__content start-screen__content-third">
+				<div class="start-screen__content start-screen__content-first">
 					<div class="v-align">
 						<div class="v-middle">
 							<div class="container">
-								<div class="row">
-									<div class="col-12 col-md-8">
+								<div class="row justify-content-center text-justify">
+									<div class="col-12 col-xl-10">
 										<p class="title">Grupo Kasto Molinos</p>
+
+										<p class="subtitle">
+											¡Sabemos a trigo…Sabemos de trigo!
+										</p>
 									</div>
 								</div>
 							</div>
@@ -151,25 +156,30 @@
 					</div>
 				</div>
 
-				<div class="start-screen__content start-screen__content-third">
+				<div class="start-screen__content start-screen__content-first">
 					<div class="v-align">
 						<div class="v-middle">
 							<div class="container">
-								<div class="row">
-									<div class="col-12 col-md-8">
+								<div class="row justify-content-center text-justify">
+									<div class="col-12 col-xl-10">
 										<p class="title">Grupo Kasto Molinos</p>
+
+										<p class="subtitle">
+											¡Sabemos a trigo…Sabemos de trigo!
+										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 
 			<!-- defaul vegas styles -->
-				<style type="text/css">
-					.vegas-overlay,.vegas-slide,.vegas-slide-inner,.vegas-timer,.vegas-wrapper{position:absolute;top:0;left:0;bottom:0;right:0;overflow:hidden;border:none;padding:0;margin:0}.vegas-overlay{opacity:.5;background:url(overlays/02.png) center center}.vegas-timer{top:auto;bottom:0;height:2px}.vegas-timer-progress{width:0;height:100%;background:#fff;-webkit-transition:width ease-out;transition:width ease-out}.vegas-timer-running .vegas-timer-progress{width:100%}.vegas-slide,.vegas-slide-inner{margin:0;padding:0;background:center center no-repeat;-webkit-transform:translateZ(0);transform:translateZ(0)}body .vegas-container{overflow:hidden!important;position:relative}.vegas-video{min-width:100%;min-height:100%;width:auto;height:auto}body.vegas-container{overflow:auto;position:static;z-index:-2}body.vegas-container>.vegas-overlay,body.vegas-container>.vegas-slide,body.vegas-container>.vegas-timer{position:fixed;z-index:-1}:root body.vegas-container>.vegas-overlay,:root body.vegas-container>.vegas-slide,_::full-page-media,_:future{bottom:-76px}.vegas-transition-blur,.vegas-transition-blur2{opacity:0;-webkit-filter:blur(32px);filter:blur(32px)}.vegas-transition-blur-in,.vegas-transition-blur2-in{opacity:1;-webkit-filter:blur(0);filter:blur(0)}.vegas-transition-blur2-out{opacity:0}.vegas-transition-burn,.vegas-transition-burn2{opacity:0;-webkit-filter:contrast(1000%) saturate(1000%);filter:contrast(1000%) saturate(1000%)}.vegas-transition-burn-in,.vegas-transition-burn2-in{opacity:1;-webkit-filter:contrast(100%) saturate(100%);filter:contrast(100%) saturate(100%)}.vegas-transition-burn2-out{opacity:0;-webkit-filter:contrast(1000%) saturate(1000%);filter:contrast(1000%) saturate(1000%)}.vegas-transition-fade,.vegas-transition-fade2{opacity:0}.vegas-transition-fade-in,.vegas-transition-fade2-in{opacity:1}.vegas-transition-fade2-out{opacity:0}.vegas-transition-flash,.vegas-transition-flash2{opacity:0;-webkit-filter:brightness(25);filter:brightness(25)}.vegas-transition-flash-in,.vegas-transition-flash2-in{opacity:1;-webkit-filter:brightness(1);filter:brightness(1)}.vegas-transition-flash2-out{opacity:0;-webkit-filter:brightness(25);filter:brightness(25)}.vegas-transition-negative,.vegas-transition-negative2{opacity:0;-webkit-filter:invert(100%);filter:invert(100%)}.vegas-transition-negative-in,.vegas-transition-negative2-in{opacity:1;-webkit-filter:invert(0);filter:invert(0)}.vegas-transition-negative2-out{opacity:0;-webkit-filter:invert(100%);filter:invert(100%)}.vegas-transition-slideDown,.vegas-transition-slideDown2{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vegas-transition-slideDown-in,.vegas-transition-slideDown2-in{-webkit-transform:translateY(0);transform:translateY(0)}.vegas-transition-slideDown2-out{-webkit-transform:translateY(100%);transform:translateY(100%)}.vegas-transition-slideLeft,.vegas-transition-slideLeft2{-webkit-transform:translateX(100%);transform:translateX(100%)}.vegas-transition-slideLeft-in,.vegas-transition-slideLeft2-in{-webkit-transform:translateX(0);transform:translateX(0)}.vegas-transition-slideLeft2-out,.vegas-transition-slideRight,.vegas-transition-slideRight2{-webkit-transform:translateX(-100%);transform:translateX(-100%)}.vegas-transition-slideRight-in,.vegas-transition-slideRight2-in{-webkit-transform:translateX(0);transform:translateX(0)}.vegas-transition-slideRight2-out{-webkit-transform:translateX(100%);transform:translateX(100%)}.vegas-transition-slideUp,.vegas-transition-slideUp2{-webkit-transform:translateY(100%);transform:translateY(100%)}.vegas-transition-slideUp-in,.vegas-transition-slideUp2-in{-webkit-transform:translateY(0);transform:translateY(0)}.vegas-transition-slideUp2-out{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vegas-transition-swirlLeft,.vegas-transition-swirlLeft2{-webkit-transform:scale(2) rotate(35deg);transform:scale(2) rotate(35deg);opacity:0}.vegas-transition-swirlLeft-in,.vegas-transition-swirlLeft2-in{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0);opacity:1}.vegas-transition-swirlLeft2-out,.vegas-transition-swirlRight,.vegas-transition-swirlRight2{-webkit-transform:scale(2) rotate(-35deg);transform:scale(2) rotate(-35deg);opacity:0}.vegas-transition-swirlRight-in,.vegas-transition-swirlRight2-in{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0);opacity:1}.vegas-transition-swirlRight2-out{-webkit-transform:scale(2) rotate(35deg);transform:scale(2) rotate(35deg);opacity:0}.vegas-transition-zoomIn,.vegas-transition-zoomIn2{-webkit-transform:scale(0);transform:scale(0);opacity:0}.vegas-transition-zoomIn-in,.vegas-transition-zoomIn2-in{-webkit-transform:scale(1);transform:scale(1);opacity:1}.vegas-transition-zoomIn2-out,.vegas-transition-zoomOut,.vegas-transition-zoomOut2{-webkit-transform:scale(2);transform:scale(2);opacity:0}.vegas-transition-zoomOut-in,.vegas-transition-zoomOut2-in{-webkit-transform:scale(1);transform:scale(1);opacity:1}.vegas-transition-zoomOut2-out{-webkit-transform:scale(0);transform:scale(0);opacity:0}.vegas-animation-kenburns{-webkit-animation:kenburns ease-out;animation:kenburns ease-out}@-webkit-keyframes kenburns{0%{-webkit-transform:scale(1.5);transform:scale(1.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes kenburns{0%{-webkit-transform:scale(1.5);transform:scale(1.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}.vegas-animation-kenburnsDownLeft{-webkit-animation:kenburnsDownLeft ease-out;animation:kenburnsDownLeft ease-out}@-webkit-keyframes kenburnsDownLeft{0%{-webkit-transform:scale(1.5) translate(10%,-10%);transform:scale(1.5) translate(10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDownLeft{0%{-webkit-transform:scale(1.5) translate(10%,-10%);transform:scale(1.5) translate(10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsDownRight{-webkit-animation:kenburnsDownRight ease-out;animation:kenburnsDownRight ease-out}@-webkit-keyframes kenburnsDownRight{0%{-webkit-transform:scale(1.5) translate(-10%,-10%);transform:scale(1.5) translate(-10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDownRight{0%{-webkit-transform:scale(1.5) translate(-10%,-10%);transform:scale(1.5) translate(-10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsDown{-webkit-animation:kenburnsDown ease-out;animation:kenburnsDown ease-out}@-webkit-keyframes kenburnsDown{0%{-webkit-transform:scale(1.5) translate(0,-10%);transform:scale(1.5) translate(0,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDown{0%{-webkit-transform:scale(1.5) translate(0,-10%);transform:scale(1.5) translate(0,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsLeft{-webkit-animation:kenburnsLeft ease-out;animation:kenburnsLeft ease-out}@-webkit-keyframes kenburnsLeft{0%{-webkit-transform:scale(1.5) translate(10%,0);transform:scale(1.5) translate(10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsLeft{0%{-webkit-transform:scale(1.5) translate(10%,0);transform:scale(1.5) translate(10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsRight{-webkit-animation:kenburnsRight ease-out;animation:kenburnsRight ease-out}@-webkit-keyframes kenburnsRight{0%{-webkit-transform:scale(1.5) translate(-10%,0);transform:scale(1.5) translate(-10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsRight{0%{-webkit-transform:scale(1.5) translate(-10%,0);transform:scale(1.5) translate(-10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUpLeft{-webkit-animation:kenburnsUpLeft ease-out;animation:kenburnsUpLeft ease-out}@-webkit-keyframes kenburnsUpLeft{0%{-webkit-transform:scale(1.5) translate(10%,10%);transform:scale(1.5) translate(10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUpLeft{0%{-webkit-transform:scale(1.5) translate(10%,10%);transform:scale(1.5) translate(10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUpRight{-webkit-animation:kenburnsUpRight ease-out;animation:kenburnsUpRight ease-out}@-webkit-keyframes kenburnsUpRight{0%{-webkit-transform:scale(1.5) translate(-10%,10%);transform:scale(1.5) translate(-10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUpRight{0%{-webkit-transform:scale(1.5) translate(-10%,10%);transform:scale(1.5) translate(-10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUp{-webkit-animation:kenburnsUp ease-out;animation:kenburnsUp ease-out}@-webkit-keyframes kenburnsUp{0%{-webkit-transform:scale(1.5) translate(0,10%);transform:scale(1.5) translate(0,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUp{0%{-webkit-transform:scale(1.5) translate(0,10%);transform:scale(1.5) translate(0,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}
-				</style>
+			<style type="text/css">
+				.vegas-overlay,.vegas-slide,.vegas-slide-inner,.vegas-timer,.vegas-wrapper{position:absolute;top:0;left:0;bottom:0;right:0;overflow:hidden;border:none;padding:0;margin:0}.vegas-overlay{opacity:.5;background:url(overlays/02.png) center center}.vegas-timer{top:auto;bottom:0;height:2px}.vegas-timer-progress{width:0;height:100%;background:#fff;-webkit-transition:width ease-out;transition:width ease-out}.vegas-timer-running .vegas-timer-progress{width:100%}.vegas-slide,.vegas-slide-inner{margin:0;padding:0;background:center center no-repeat;-webkit-transform:translateZ(0);transform:translateZ(0)}body .vegas-container{overflow:hidden!important;position:relative}.vegas-video{min-width:100%;min-height:100%;width:auto;height:auto}body.vegas-container{overflow:auto;position:static;z-index:-2}body.vegas-container>.vegas-overlay,body.vegas-container>.vegas-slide,body.vegas-container>.vegas-timer{position:fixed;z-index:-1}:root body.vegas-container>.vegas-overlay,:root body.vegas-container>.vegas-slide,_::full-page-media,_:future{bottom:-76px}.vegas-transition-blur,.vegas-transition-blur2{opacity:0;-webkit-filter:blur(32px);filter:blur(32px)}.vegas-transition-blur-in,.vegas-transition-blur2-in{opacity:1;-webkit-filter:blur(0);filter:blur(0)}.vegas-transition-blur2-out{opacity:0}.vegas-transition-burn,.vegas-transition-burn2{opacity:0;-webkit-filter:contrast(1000%) saturate(1000%);filter:contrast(1000%) saturate(1000%)}.vegas-transition-burn-in,.vegas-transition-burn2-in{opacity:1;-webkit-filter:contrast(100%) saturate(100%);filter:contrast(100%) saturate(100%)}.vegas-transition-burn2-out{opacity:0;-webkit-filter:contrast(1000%) saturate(1000%);filter:contrast(1000%) saturate(1000%)}.vegas-transition-fade,.vegas-transition-fade2{opacity:0}.vegas-transition-fade-in,.vegas-transition-fade2-in{opacity:1}.vegas-transition-fade2-out{opacity:0}.vegas-transition-flash,.vegas-transition-flash2{opacity:0;-webkit-filter:brightness(25);filter:brightness(25)}.vegas-transition-flash-in,.vegas-transition-flash2-in{opacity:1;-webkit-filter:brightness(1);filter:brightness(1)}.vegas-transition-flash2-out{opacity:0;-webkit-filter:brightness(25);filter:brightness(25)}.vegas-transition-negative,.vegas-transition-negative2{opacity:0;-webkit-filter:invert(100%);filter:invert(100%)}.vegas-transition-negative-in,.vegas-transition-negative2-in{opacity:1;-webkit-filter:invert(0);filter:invert(0)}.vegas-transition-negative2-out{opacity:0;-webkit-filter:invert(100%);filter:invert(100%)}.vegas-transition-slideDown,.vegas-transition-slideDown2{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vegas-transition-slideDown-in,.vegas-transition-slideDown2-in{-webkit-transform:translateY(0);transform:translateY(0)}.vegas-transition-slideDown2-out{-webkit-transform:translateY(100%);transform:translateY(100%)}.vegas-transition-slideLeft,.vegas-transition-slideLeft2{-webkit-transform:translateX(100%);transform:translateX(100%)}.vegas-transition-slideLeft-in,.vegas-transition-slideLeft2-in{-webkit-transform:translateX(0);transform:translateX(0)}.vegas-transition-slideLeft2-out,.vegas-transition-slideRight,.vegas-transition-slideRight2{-webkit-transform:translateX(-100%);transform:translateX(-100%)}.vegas-transition-slideRight-in,.vegas-transition-slideRight2-in{-webkit-transform:translateX(0);transform:translateX(0)}.vegas-transition-slideRight2-out{-webkit-transform:translateX(100%);transform:translateX(100%)}.vegas-transition-slideUp,.vegas-transition-slideUp2{-webkit-transform:translateY(100%);transform:translateY(100%)}.vegas-transition-slideUp-in,.vegas-transition-slideUp2-in{-webkit-transform:translateY(0);transform:translateY(0)}.vegas-transition-slideUp2-out{-webkit-transform:translateY(-100%);transform:translateY(-100%)}.vegas-transition-swirlLeft,.vegas-transition-swirlLeft2{-webkit-transform:scale(2) rotate(35deg);transform:scale(2) rotate(35deg);opacity:0}.vegas-transition-swirlLeft-in,.vegas-transition-swirlLeft2-in{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0);opacity:1}.vegas-transition-swirlLeft2-out,.vegas-transition-swirlRight,.vegas-transition-swirlRight2{-webkit-transform:scale(2) rotate(-35deg);transform:scale(2) rotate(-35deg);opacity:0}.vegas-transition-swirlRight-in,.vegas-transition-swirlRight2-in{-webkit-transform:scale(1) rotate(0);transform:scale(1) rotate(0);opacity:1}.vegas-transition-swirlRight2-out{-webkit-transform:scale(2) rotate(35deg);transform:scale(2) rotate(35deg);opacity:0}.vegas-transition-zoomIn,.vegas-transition-zoomIn2{-webkit-transform:scale(0);transform:scale(0);opacity:0}.vegas-transition-zoomIn-in,.vegas-transition-zoomIn2-in{-webkit-transform:scale(1);transform:scale(1);opacity:1}.vegas-transition-zoomIn2-out,.vegas-transition-zoomOut,.vegas-transition-zoomOut2{-webkit-transform:scale(2);transform:scale(2);opacity:0}.vegas-transition-zoomOut-in,.vegas-transition-zoomOut2-in{-webkit-transform:scale(1);transform:scale(1);opacity:1}.vegas-transition-zoomOut2-out{-webkit-transform:scale(0);transform:scale(0);opacity:0}.vegas-animation-kenburns{-webkit-animation:kenburns ease-out;animation:kenburns ease-out}@-webkit-keyframes kenburns{0%{-webkit-transform:scale(1.5);transform:scale(1.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes kenburns{0%{-webkit-transform:scale(1.5);transform:scale(1.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}.vegas-animation-kenburnsDownLeft{-webkit-animation:kenburnsDownLeft ease-out;animation:kenburnsDownLeft ease-out}@-webkit-keyframes kenburnsDownLeft{0%{-webkit-transform:scale(1.5) translate(10%,-10%);transform:scale(1.5) translate(10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDownLeft{0%{-webkit-transform:scale(1.5) translate(10%,-10%);transform:scale(1.5) translate(10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsDownRight{-webkit-animation:kenburnsDownRight ease-out;animation:kenburnsDownRight ease-out}@-webkit-keyframes kenburnsDownRight{0%{-webkit-transform:scale(1.5) translate(-10%,-10%);transform:scale(1.5) translate(-10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDownRight{0%{-webkit-transform:scale(1.5) translate(-10%,-10%);transform:scale(1.5) translate(-10%,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsDown{-webkit-animation:kenburnsDown ease-out;animation:kenburnsDown ease-out}@-webkit-keyframes kenburnsDown{0%{-webkit-transform:scale(1.5) translate(0,-10%);transform:scale(1.5) translate(0,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsDown{0%{-webkit-transform:scale(1.5) translate(0,-10%);transform:scale(1.5) translate(0,-10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsLeft{-webkit-animation:kenburnsLeft ease-out;animation:kenburnsLeft ease-out}@-webkit-keyframes kenburnsLeft{0%{-webkit-transform:scale(1.5) translate(10%,0);transform:scale(1.5) translate(10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsLeft{0%{-webkit-transform:scale(1.5) translate(10%,0);transform:scale(1.5) translate(10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsRight{-webkit-animation:kenburnsRight ease-out;animation:kenburnsRight ease-out}@-webkit-keyframes kenburnsRight{0%{-webkit-transform:scale(1.5) translate(-10%,0);transform:scale(1.5) translate(-10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsRight{0%{-webkit-transform:scale(1.5) translate(-10%,0);transform:scale(1.5) translate(-10%,0)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUpLeft{-webkit-animation:kenburnsUpLeft ease-out;animation:kenburnsUpLeft ease-out}@-webkit-keyframes kenburnsUpLeft{0%{-webkit-transform:scale(1.5) translate(10%,10%);transform:scale(1.5) translate(10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUpLeft{0%{-webkit-transform:scale(1.5) translate(10%,10%);transform:scale(1.5) translate(10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUpRight{-webkit-animation:kenburnsUpRight ease-out;animation:kenburnsUpRight ease-out}@-webkit-keyframes kenburnsUpRight{0%{-webkit-transform:scale(1.5) translate(-10%,10%);transform:scale(1.5) translate(-10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUpRight{0%{-webkit-transform:scale(1.5) translate(-10%,10%);transform:scale(1.5) translate(-10%,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}.vegas-animation-kenburnsUp{-webkit-animation:kenburnsUp ease-out;animation:kenburnsUp ease-out}@-webkit-keyframes kenburnsUp{0%{-webkit-transform:scale(1.5) translate(0,10%);transform:scale(1.5) translate(0,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}@keyframes kenburnsUp{0%{-webkit-transform:scale(1.5) translate(0,10%);transform:scale(1.5) translate(0,10%)}100%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0)}}
+			</style>
 
 			<!-- custom vegas styles -->
 			<style type="text/css">
@@ -231,7 +241,7 @@
 					margin: 0 5px;
 					cursor: pointer;
 					background-color: #f1cf69;
-					box-shadow: 0 0 0 0 #4a8b71 inset;
+					box-shadow: 0 0 0 0 #0f70b7 inset;
 					border-radius: 50%;
 					-webkit-transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
 					-moz-transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -243,7 +253,7 @@
 				#vegas-slider .vegas-dots a:hover,
 				#vegas-slider .vegas-dots a.active
 				{
-					box-shadow: 0 0 0 8px #4a8b71 inset;
+					box-shadow: 0 0 0 8px #0f70b7 inset;
 				}
 
 				#vegas-slider .vegas-dots a.active { cursor: default; }
@@ -263,6 +273,7 @@
 					height: 100%;
 					padding-top: 100px;
 					padding-bottom: 50px;
+					padding-left: 80px;
 					visibility: hidden;
 					opacity: 0;
 					text-align: center;
@@ -310,7 +321,7 @@
 					line-height: 1.2;
 					font-size: 18px;
 					font-weight: 300;
-					letter-spacing: 20px;
+					letter-spacing: 5px;
 					margin-top: 20px;
 					margin-bottom: 20px;
 				}
@@ -350,7 +361,7 @@
 
 				/* third slide */
 				.start-screen__content-third { }
-				.start-screen__content-third .title { color: #fff; }
+				.start-screen__content-third .title { color: #282828; }
 				.start-screen__content-third .subtitle {}
 
 				@media only screen and (min-width: 576px)
@@ -375,7 +386,7 @@
 						margin-bottom: 20px;
 					}
 
-					.start-screen__content-third .title { line-height: 0.8; }
+					.start-screen__content-third .title { line-height: 0.6; }
 				}
 
 				@media only screen and (min-width: 768px)
@@ -409,7 +420,7 @@
 
 					.start-screen__content .title
 					{
-						font-size: 130px;
+						font-size: 100px;
 						letter-spacing: 20px;
 					}
 				}
@@ -450,15 +461,15 @@
 									slides = [
 										{
 											name: "img 1",
-											src: '../img/home/banner4.jpg'
+											src: '../img/home_img/banner2.JPG'
 										},
 										{
 											name: "img 2",
-											src: '../img/home/banner5.JPG'
+											src: '../img/home_img/banner1.jpg'
 										},
 										{
 											name: "img 3",
-											src: '../img/home/banner6.jpg'
+											src: '../img/home_img/banner3.jpg'
 										}
 									],
 									slider_content = $('.start-screen__content'),
@@ -472,7 +483,7 @@
 									transitionDuration: 4000,
 									delay: 5000,
 									slides: slides,
-									overlay: '../img/home/overlays/04.png',
+									overlay: '../img/home_img/overlays/04.png',
 									init: function (globalSettings) {
 
 										if ( this.data('dots') == true ) {
@@ -534,16 +545,16 @@
 			<section class="section">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-lg-4 col-xl-3">
+						<div class="col-12 col-lg-3 col-xl-3">
 							<div class="col-MB-30">
 								<h2>Acerca de nosotros</h2>
 							</div>
 						</div>
 
-						<div class="col-12 col-lg-8 col-xl-9">
+						<div class="col-12 col-lg-9 col-xl-9">
 							<div class="col-MB-30">
 								<h4>
-									Grupo Kasto Molinos <br>SABEMOS A TRIGO…SABEMOS DE TRIGO! <!--/fabrica y comercializa harina -->
+									Grupo Kasto Molinos
 								</h4>
 
 								<p>
@@ -582,7 +593,7 @@
 											<div class="feature__item">
 												<i class="feature__item__ico feature__item__ico--3"></i>
 
-												<h3 class="feature__item__title  h4">12 marcas<br /></h3>
+												<h3 class="feature__item__title  h4">12<br />marcas</h3>
 											</div>
 										</div>
 										<!-- end item -->
@@ -592,7 +603,7 @@
 											<div class="feature__item">
 												<i class="feature__item__ico feature__item__ico--4"></i>
 
-												<h3 class="feature__item__title  h4">4 Molinos<br /></h3>
+												<h3 class="feature__item__title  h4">4<br />Molinos</h3>
 											</div>
 										</div>
 										<!-- end item -->
@@ -611,7 +622,7 @@
 											<div class="feature__item">
 												<i class="feature__item__ico feature__item__ico--6"></i>
 
-												<h3 class="feature__item__title  h4">Certificados en ISO 9001<br /> y HACCP</h3>
+												<h3 class="feature__item__title  h4">Certificados en<br />ISO 9001 y HACCP</h3>
 											</div>
 										</div>
 										<!-- end item -->
@@ -625,17 +636,16 @@
 			<!-- end section -->
 
 			<!-- start section -->
-			<section class="section section--no-pt section--custom-1">
+			<!--<section class="section section--no-pt section--custom-1">-->
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="col-MB-30">
-								<img class="img-fluid" src="../img/home/slogan2.png" alt="demo" />
+								<img class="img-fluid" src="../img/slogan2.png" alt="demo" />
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
 			<!-- end section -->
 
 			<!-- start section -->
@@ -644,203 +654,189 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="col-MB-30">
-								<h2>Filosofía</h2>
-
-								<h4>Misión</h4>
+								<h2>Nuestra filosofía</h2>
 							</div>
+							<i class='fas fa-crosshairs' style='font-size:15px'></i>
+							<h4 style="display: inline-block;">Misión</h4>
 
 							<p>
-								Elaborar harinas y derivados de trigo con la más alta calidad e inocuidad, buscando la mejora continua y el bienestar de nuestra comunidad.
+								Elaborar harinas y derivados de trigo con la más alta calidad e inocuidad, buscando la mejora continua y el bienestar de nuestra comunidad. 
 							</p>
 
-							<div class="col-MB-30">
+							<i class='fas fa-eye' style='font-size:15px'></i>
+							<h4 style="display: inline-block;">Visión</h4>
 
-								<h4>Visión</h4>
-							</div>
 							<p>
 								Ser el líder en el occidente y centro del país en la producción de harinas y derivados de trigo, ofreciendo el mejor servicio, calidad e inocuidad. 
 							</p>
 
-							<p class="d-lg-none"><img class="img-fluid" src="../img/home/filosofia.jpg" alt="demo" /></p>
+							<p class="d-lg-none"><img class="img-fluid" src="../img/home_img/filosofia.jpg" alt="demo"/></p>
 
 							<p class="col-lg-MB-20">&nbsp;</p>
 
 							<p>
-								<a class="custom-btn primary big" href="nosotros.html">Descubre más</a>
+								<a class="custom-btn primary big" href="#">Leer Más</a>
 							</p>
 						</div>
 					</div>
 				</div>
 
-				<div class="img-place" style="background-image: url(../img/home/filosofia.jpg);"></div>
+				<div class="img-place" style="background-image: url(../img/home_img/filosofia.jpg);"></div>
 			</section>
 			<!-- end section -->
 
-			
 			<!-- start section -->
-			<section class="section section--background-base-dark">
-				<div class="container">
-					<div class="section-heading section-heading--center">
-						<h2 class="title">Historia</h2>
-					</div>
-
+			<section class=" section section--background-base-light section jarallax" data-speed="0.4" data-img-position="50% 50%" style="padding: 0;">
 					<div class="row justify-content-md-center">
 						<div class="col-lg-10">
-							<div class="feedbacks feedbacks--slider feedbacks--style-2">
-								<div class="owl-carousel owl-theme">
+							<div class="feedbacks feedbacks--slider feedbacks--style-1">
+								<div class="owl-carousel">
 									<!-- start item -->
+									<article class="feedback__item" style="color: #777;">
+										<!-- start section -->
+										<section class="section section--background-base-light "> <!--section--background-logo-->
+												<div class="section-heading section-heading--left">
+													<h2 class="title">Historia</h2>
+												</div>
+
+												<div class="timeline">
+													<div class="timeline__inner">
+														<div class="row">
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1975</p>
+																	<!--<h4 class="timeline__title">Smells Racy Free Announcing</h4>-->
+																	<p>
+																		Grupo Kasto inicia operaciones en la molienda de trigo por medio de una co-inversión en Harinera de Atotonilco.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1984 </p>
+																	<p>
+																		Se adquiere Molino Guadalajara, antes Harinera de Occidente.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1985</p>
+																	<p>
+																		Se adquiere Molino Central, con una capacidad de producción de molienda instalada de 42,000 toneladas de trigo anuales.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1989</p>
+																	<p>
+																		Adquisición de Molino San Rafael, en el estado de Michoacán. 
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+														</div>
+													</div>
+												</div>
+										</section>
+										<!-- end section -->
+									</article>
+									<!-- end item -->
+
+									<!-- start item -->
+									<article class="feedback__item" style="color: #777;">
+										<!-- start section -->
+										<section class="section section--background-base-light">
+												<div class="section-heading section-heading--left">
+													<h2 class="title">Historia</h2>
+												</div>
+
+												<div class="timeline">
+													<div class="timeline__inner">
+														<div class="row">
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1995</p>
+																	<!--<h4 class="timeline__title">Smells Racy Free Announcing</h4>-->
+																	<p>
+																		Molino de trigo Jiquilpan se incorporó a Grupo Kasto.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1999</p>
+																	<p>
+																		Se creo el departamento de servicio técnico a clientes
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">2000</p>
+																	<p>
+																		Se unificaron los laboratorios de planta Central y Guadalajara, para tener un laboratorio más completo.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+														</div>
+													</div>
+												</div>
+										</section>
+										<!-- end section -->
+
+									</article>
+									<!-- end item -->
+
+									<!-- start item --
 									<article class="feedback__item">
 										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
+											<div class="feedback__author__photo  mx-auto">
 												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
-											</div>-->
+											</div>
 
-											<h4 class="feedback__author__name linea_tiempo">1975</h4>
+											<h4 class="feedback__author__name">Alex Roberts</h4>
 
-											<p class="feedback__author__position"></p>
+											<p class="feedback__author__position">Farmer, AgroHolding</p>
 										</div>
 
 										<div class="feedback__text">
 											<p>
-												Grupo Kasto inicia operaciones en la molienda de trigo por medio de una co-inversión en Harinera de Atotonilco. 
+												“Absorbent lower warranty smart deluxe lasting sporty fast customer spring rated. Free every challenge your spicey racy. Introducing handcrafted credit-card like supreme monster just hurry fresh outlasts flip quality. Value far mouthwatering wherever try offer ultra aroma Introducing handcrafted credit-card like supreme monster
 											</p>
 										</div>
 									</article>
-									<!-- end item -->
-
-									<!-- start item -->
-									<article class="feedback__item">
-										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
-												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
-											</div>-->
-
-											<h4 class="feedback__author__name linea_tiempo">1984 </h4>
-
-											<p class="feedback__author__position"></p>
-										</div>
-
-										<div class="feedback__text">
-											<p>
-												Se adquiere Molino Guadalajara, antes Harinera de Occidente.
-											</p>
-										</div>
-									</article>
-									<!-- end item -->
-
-									<!-- start item -->
-									<article class="feedback__item">
-										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
-												<img class="circled  img-fluid" src="../img/home/fecha3.png" height="140" width="140" alt="demo" />
-											</div>-->
-
-											<h4 class="feedback__author__name linea_tiempo">1985</h4>
-
-											<p class="feedback__author__position"></p>
-										</div>
-
-										<div class="feedback__text">
-											<p>
-												Se adquiere Molino Central, con una capacidad de producción de molienda instalada de 42,000 toneladas de trigo anuales.
-											</p>
-										</div>
-									</article>
-									<!-- end item -->
-
-
-									<!-- start item -->
-									<article class="feedback__item">
-										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
-												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
-											</div>-->
-
-											<h4 class="feedback__author__name linea_tiempo">1989 </h4>
-
-											<p class="feedback__author__position"></p>
-										</div>
-
-										<div class="feedback__text">
-											<p>
-												Adquisición de Molino San Rafael, en el estado de Michoacán.
-											</p>
-										</div>
-									</article>
-									<!-- end item -->
-									<!--asdfghjklñsdfghjklñdfghjklñfghjklfghjkl
-										fghjklñ{fghjklñ{fghjklñghjklñ}}
-										tyuiop´fghjklñfghjklñrtyuiopghjkl
-										ghjklñ{hjklñ{ghjkltyuiop´hjklñ}}
-									-->
-									<!-- start item -->
-									<article class="feedback__item">
-										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
-												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
-											</div>-->
-
-											<h4 class="feedback__author__name linea_tiempo">1995 </h4>
-
-											<p class="feedback__author__position"></p>
-										</div>
-
-										<div class="feedback__text">
-											<p>
-												Molino de trigo Jiquilpan se incorporó a Grupo Kasto.
-											</p>
-										</div>
-									</article>
-									<!-- end item -->
-									<!-- start item -->
-									<article class="feedback__item">
-										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
-												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
-											</div>-->
-
-											<h4 class="feedback__author__name linea_tiempo">1999 </h4>
-
-											<p class="feedback__author__position"></p>
-										</div>
-
-										<div class="feedback__text">
-											<p>
-												Se creo el departamento de servicio técnico a clientes
-											</p>
-										</div>
-									</article>
-									<!-- end item -->
-									<!-- start item -->
-									<article class="feedback__item">
-										<div class="feedback__author">
-											<!--<div class="feedback__author__photo  mx-auto">
-												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
-											</div>-->
-
-											<h4 class="feedback__author__name linea_tiempo">2000 </h4>
-
-											<p class="feedback__author__position"></p>
-										</div>
-
-										<div class="feedback__text">
-											<p>
-												Se unificaron los laboratorios de planta Central y Guadalajara, para tener un laboratorio más completo.
-											</p>
-										</div>
-									</article>
-									<!-- end item -->
-
+									!-- end item -->
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 			</section>
 			<!-- end section -->
 
 			<!-- start section -->
-			<section class="section section--no-pt section--no-pb section--background-base-light">
+			<section class="section section--no-pt section--no-pb">
 				<div class="container">
 					<div class="gallery gallery--style-3">
 						<div class="gallery__inner">
@@ -854,7 +850,7 @@
 											Appetizing luscious savor hot senses. Effervescent the secure special. Kids spicey chance
 										</p>
 
-										<a class="gallery-more-link" href="gallery_3.html">Ir a la galeria</a>
+										<a class="gallery-more-link" href="gallery_3.html">Ver más</a>
 									</div>
 								</div>
 								<!-- end item -->
@@ -864,9 +860,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url(../img/home/pagina5.png);" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina5.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina5.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina5.png" data-gallery="gall">
 													<span class="gallery__item__title naranja">MC Especial</span>
 													<span class="gallery__item__subtitle naranja">Alta Proteina</span>
 												</a>
@@ -881,9 +877,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina12.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina12.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina12.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina12.png" data-gallery="gall">
 													<span class="gallery__item__title naranja">Cisne Diamante</span>
 													<span class="gallery__item__subtitle naranja">Alta Proteina</span>
 												</a>
@@ -898,9 +894,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina11.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina11.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina11.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina11.png" data-gallery="gall">
 													<span class="gallery__item__title rojo">Don Carlos</span>
 													<span class="gallery__item__subtitle rojo">Fuerte</span>
 												</a>
@@ -915,9 +911,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina4.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina4.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina4.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina4.png" data-gallery="gall">
 													<span class="gallery__item__title rojo">Molino Central</span>
 													<span class="gallery__item__subtitle rojo">Fuerte</span>
 												</a>
@@ -932,9 +928,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina13.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina13.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina13.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina13.png" data-gallery="gall">
 													<span class="gallery__item__title cyan">Blanca Cisne</span>
 													<span class="gallery__item__subtitle cyan">Semi Fuerte</span>
 												</a>
@@ -949,9 +945,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina8.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina8.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina8.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina8.png" data-gallery="gall">
 													<span class="gallery__item__title cyan">Blanca</span>
 													<span class="gallery__item__subtitle cyan">Semifuerte</span>
 												</a>
@@ -966,9 +962,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina10.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina10.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina10.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina10.png" data-gallery="gall">
 													<span class="gallery__item__title amarillo">Estrella de Occidente</span>
 													<span class="gallery__item__subtitle amarillo">Suave</span>
 												</a>
@@ -982,9 +978,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina7.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina7.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina7.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina7.png" data-gallery="gall">
 													<span class="gallery__item__title amarillo">Lorena</span>
 													<span class="gallery__item__subtitle amarillo">Suave</span>
 												</a>
@@ -998,9 +994,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina9.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina9.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina9.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina9.png" data-gallery="gall">
 													<span class="gallery__item__title verde" >Integral</span>
 													<span class="gallery__item__subtitle verde">Integral</span>
 												</a>
@@ -1014,9 +1010,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina2.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina2.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina2.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina2.png" data-gallery="gall">
 													<span class="gallery__item__title azul">Blanca para tortilla</span>
 													<span class="gallery__item__subtitle azul">Propósito Específico</span>
 												</a>
@@ -1030,9 +1026,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina1.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina1.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina1.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina1.png" data-gallery="gall">
 													<span class="gallery__item__title azul">Blanca para tortilla</span>
 													<span class="gallery__item__subtitle azul">Propósito Específico</span>
 												</a>
@@ -1046,9 +1042,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina6.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina6.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina6.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina6.png" data-gallery="gall">
 													<span class="gallery__item__title azul">Lorena</span>
 													<span class="gallery__item__subtitle azul">Propósito Específico</span>
 												</a>
@@ -1062,9 +1058,9 @@
 									<div class="gallery__item">
 										<div class="gallery__item__inner">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/pagina3.png');" alt="demo" />
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/inicio/pagina3.png');" alt="demo" />
 
-												<a class="gallery__item__description" href="../img/home/pagina3.png" data-gallery="gall">
+												<a class="gallery__item__description" href="../img/home_img/inicio/pagina3.png" data-gallery="gall">
 													<span class="gallery__item__title azul">Talpita</span>
 													<span class="gallery__item__subtitle azul">Propósito Específico</span>
 												</a>
@@ -1112,7 +1108,7 @@
 
 										<div class="col-md-6 col-lg-4 col-xl-6">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/03-oct-18.jpeg');" alt="demo">
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/03-oct-18.jpeg');" alt="demo">
 											</figure>
 										</div>
 									</div>
@@ -1143,7 +1139,7 @@
 
 										<div class="col-md-6 col-lg-4 col-xl-6">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/18-oct-2019.png');" alt="demo">
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/18-oct-2019.png');" alt="demo">
 											</figure>
 										</div>
 									</div>
@@ -1174,7 +1170,7 @@
 
 										<div class="col-md-6 col-lg-4 col-xl-6">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/13-may-2019.jpeg');" alt="demo">
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/13-may-2019.jpeg');" alt="demo">
 											</figure>
 										</div>
 									</div>
@@ -1205,7 +1201,7 @@
 
 										<div class="col-md-6 col-lg-4 col-xl-6">
 											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home/13-oct-2020.jpeg');" alt="demo">
+												<img src="../img/blank.gif" style="background-image: url('../img/home_img/13-oct-2020.jpeg');" alt="demo">
 											</figure>
 										</div>
 									</div>
@@ -1222,35 +1218,145 @@
 			</section>
 			<!-- end section -->
 
-			
-		</main>
-		<!-- start footer -->
-		<a id="spy-get-in-touch" class="ancor"></a>
-		<footer id="footer" class="footer--style-2 footer--dark">
-			<div class="footer__inner">
+			<!-- start section -->
+			<section class="section jarallax" data-speed="0.4" data-img-position="50% 50%" style="background-image: url('../img/bg/bg_9.jpg');">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-4">
-							<div class="footer__item">
-								<a class="site-logo" href="index.html">AGRICOM</a>
+					<div class="section-heading section-heading--center section-heading--white">
+						<h2 class="title">What People Says</h2>
+					</div>
 
-								<div class="footer__text">
-									<p>
-										<strong>Evulates vast a real proven works discount secure care. Market invigorate a awesome.</strong>
-									</p>
+					<div class="row justify-content-md-center">
+						<div class="col-lg-10">
+							<div class="feedbacks feedbacks--slider feedbacks--style-1">
+								<div class="owl-carousel owl-theme">
+									<!-- start item -->
+									<article class="feedback__item">
+										<div class="feedback__author">
+											<div class="feedback__author__photo  mx-auto">
+												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
+											</div>
 
-									<p>
-										Odor to yummy high racy bonus soaking mouthwatering. Evulates vast a real proven works discount secure care. Market invigorate a awesome handcrafted bigger comes newer 
-									</p>
+											<h4 class="feedback__author__name">Alex Roberts</h4>
+
+											<p class="feedback__author__position">Farmer, AgroHolding</p>
+										</div>
+
+										<div class="feedback__text">
+											<p>
+												“Absorbent lower warranty smart deluxe lasting sporty fast customer spring rated. Free every challenge your spicey racy. Introducing handcrafted credit-card like supreme monster just hurry fresh outlasts flip quality. 
+											</p>
+										</div>
+									</article>
+									<!-- end item -->
+
+									<!-- start item -->
+									<article class="feedback__item">
+										<div class="feedback__author">
+											<div class="feedback__author__photo  mx-auto">
+												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
+											</div>
+
+											<h4 class="feedback__author__name">Alex Roberts</h4>
+
+											<p class="feedback__author__position">Farmer, AgroHolding</p>
+										</div>
+
+										<div class="feedback__text">
+											<p>
+												“Absorbent lower warranty smart deluxe lasting sporty fast customer spring rated. Free every challenge your spicey racy. Introducing handcrafted credit-card like supreme monster just hurry fresh outlasts flip quality. Value far mouthwatering wherever try offer ultra aroma
+											</p>
+										</div>
+									</article>
+									<!-- end item -->
+
+									<!-- start item -->
+									<article class="feedback__item">
+										<div class="feedback__author">
+											<div class="feedback__author__photo  mx-auto">
+												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
+											</div>
+
+											<h4 class="feedback__author__name">Alex Roberts</h4>
+
+											<p class="feedback__author__position">Farmer, AgroHolding</p>
+										</div>
+
+										<div class="feedback__text">
+											<p>
+												“Absorbent lower warranty smart deluxe lasting sporty fast customer spring rated. Free every challenge your spicey racy. Introducing handcrafted credit-card like supreme monster just hurry fresh outlasts flip quality. Value far mouthwatering wherever try offer ultra aroma Introducing handcrafted credit-card like supreme monster
+											</p>
+										</div>
+									</article>
+									<!-- end item -->
 								</div>
-
-								<p class="footer__copy">© 2020, Grupo Kasto Molinos.<br>Todos los derechos reservados</p>
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end section -->
 
-						<div class="col-md-6 col-lg-4">
-							<div class="footer__item">
-								<h3 class="footer__title">Contacto</h3><p></p>
+			<!-- start section -->
+			<section class="section">
+				<div class="container">
+					<div class="partners">
+						<div class="partners__inner">
+							<div class="row">
+								<!-- start item -->
+								<div class="col-6 col-sm-4 col-lg-2">
+									<img class="img-fluid" src="../img/partners_img/1.jpg" alt="demo" />
+								</div>
+								<!-- end item -->
+
+								<!-- start item -->
+								<div class="col-6 col-sm-4 col-lg-2">
+									<img class="img-fluid" src="../img/partners_img/2.jpg" alt="demo" />
+								</div>
+								<!-- end item -->
+
+								<!-- start item -->
+								<div class="col-6 col-sm-4 col-lg-2">
+									<img class="img-fluid" src="../img/partners_img/3.jpg" alt="demo" />
+								</div>
+								<!-- end item -->
+
+								<!-- start item -->
+								<div class="col-6 col-sm-4 col-lg-2">
+									<img class="img-fluid" src="../img/partners_img/4.jpg" alt="demo" />
+								</div>
+								<!-- end item -->
+
+								<!-- start item -->
+								<div class="col-6 col-sm-4 col-lg-2">
+									<img class="img-fluid" src="../img/partners_img/5.jpg" alt="demo" />
+								</div>
+								<!-- end item -->
+
+								<!-- start item -->
+								<div class="col-6 col-sm-4 col-lg-2">
+									<img class="img-fluid" src="../img/partners_img/6.jpg" alt="demo" />
+								</div>
+								<!-- end item -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end section -->
+
+			<!-- start section -->
+			<a id="spy-get-in-touch" class="ancor"></a>
+			<section class="section-contact">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 col-md-6 bg-1">
+							<div class="item">
+								<header class="item__header">
+									<h2 class="item__title">Contacto</h2>
+
+									<p class="item__subtitle">Mega bold action. Sold care wherever less appetizing your far easily</p>
+								</header>
+
 								<div class="company-contacts">
 									<address>
 										<p>
@@ -1271,20 +1377,24 @@
 
 									<div class="social-btns">
 										<div class="social-btns__inner">
-											<a class="fontello-facebook" href="https://www.facebook.com/grupokastomolinos" target="_blank"></a>
-											<a class="fontello-instagram" href="https://www.instagram.com/grupokasto/" target="_blank"></a>
-											<a class="fontello-whatsapp" href="#" target="_blank"></a>
+											<a class="fontello-facebook" href="#" target="_blank"></a>
+											<a class="fontello-instagram" href="#" target="_blank"></a>
+											<a class="fontello-twitter" href="#" target="_blank"></a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-md-12 col-lg-4">
-							<div class="footer__item">
-								<h3 class="footer__title">Contáctanos</h3>
+						<div class="col-12 col-md-6 bg-2">
+							<div class="item">
+								<header class="item__header">
+									<h2 class="item__title">Ponte en contacto</h2>
 
-								<form class="footer__form f1 js-contact-form" action="#">
+									<p class="item__subtitle">Vinyl grown remarkable in survey wherever parents are it's. Mega bold action. Sold care</p>
+								</header>
+
+								<form class="f1 js-contact-form" action="#">
 									<label class="input-wrp">
 										<i class="fontello-user"></i>
 										<input class="textfield" type="text" placeholder="Nombre" name="name" />
@@ -1297,14 +1407,88 @@
 
 									<label class="input-wrp">
 										<i class="fontello-comment"></i>
-										<textarea class="textfield" placeholder="Comentario" name="message"></textarea>
+										<textarea class="textfield" placeholder="Comment" name="Mensaje"></textarea>
 									</label>
 
 									<div class="btn-wrp">
-										<button class="custom-btn primary long" type="submit" role="button">Enviar mensaje</button>
+										<button class="custom-btn long" type="submit" role="button">enviar mensaje</button>
 									</div>
 
 									<div class="form__note"></div>
+								</form>
+							</div>
+						</div>
+
+						<div class="col-12">
+							<div class="item map-container">
+								<iframe src="https://www.google.com/maps/d/embed?mid=1KpQfZ7MW1oEaQYh0VVasXYMAuACoP5Co" width="100%" height="480"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end section -->
+		</main>
+
+		<!-- start footer -->
+		<footer id="footer" class="footer--style-1">
+			<div class="footer__inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-lg-4">
+							<div class="footer__item">
+								<a class="site-logo" href="index.html">Grupo Kasto Molinos</a>
+
+								<p class="footer__copy">© 2020, Grupo Kasto Molinos. Todos los derechos reservados.</p>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-lg-4">
+							<div class="footer__item">
+								<h3 class="footer__title">Mapa de sitio</h3>
+
+								<div class="row">
+									<div class="col">
+										<ul class="footer__menu">
+											<li><a href="#">Inicio</a></li>
+											<li><a href="#">Nosotros</a></li>
+											<li><a href="#">Galeria</a></li>
+											<li><a href="#">Productos</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Contacto</a></li>
+										</ul>
+									</div>
+
+									<div class="col">
+										<ul class="footer__menu">
+											<li><a href="#">Mi cuenta</a></li>
+											<li><a href="#">Mesa de ayuda</a></li>
+											<li><a href="#">Soporte</a></li>
+											<li><a href="#">Mis ordenes</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-12 col-lg-4">
+							<div class="footer__item">
+								<h3 class="footer__title">BOLETIN INFORMATIVO</h3>
+
+								<form class="footer__form form-horizontal" action="#">
+									<p>Effervescent the secure special. Kids spicey chance excellent proven too sleek handcrafted when makes intense</p>
+
+									<div class="b-table">
+										<div class="cell v-bottom">
+											<label class="input-wrp">
+												<input class="textfield" type="text" placeholder="Ingresa tu correo" />
+											</label>
+										</div>
+
+										<div class="cell v-bottom">
+											<button class="custom-btn primary" type="submit" role="button">Subscribirse</button>
+										</div>
+									</div>
 								</form>
 							</div>
 						</div>
