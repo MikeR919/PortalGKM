@@ -2775,7 +2775,8 @@ img {
   position: fixed;
   right: 25px;
   bottom: 25px;
-  z-index: 5
+  z-index: 5;
+  padding-bottom:35px;
 }
 #btn-to-top {
   position: relative;
@@ -4138,7 +4139,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   padding-top: 60px;
   padding-bottom: 60px;
   color: #555;
-  box-shadow: 5px 5px 5px 6px grey;
+  /*box-shadow: 5px 5px 5px 6px grey;*/
 }
 #footer .footer__inner {
   margin-bottom: -50px
