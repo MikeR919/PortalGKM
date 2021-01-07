@@ -48,6 +48,7 @@
 			_html.className = _html.className.replace("no-js","js");
 		</script>
 		<script type="text/javascript" src="../js/device.min.js"></script>
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	</head>
 	<body class="page page-home">
 
@@ -68,7 +69,6 @@
 
 							<div class="submenu">
 								<ul>
-									<li><a href="#">¿Quiénes somos?</a></li>
 									<li><a href="filosofia.html">Filosofía</a></li>
 									<li><a href="certificaciones.html">Certificaciones</a></li>
 								</ul>
@@ -114,7 +114,7 @@
 		<header id="start-screen" class="start-screen--style-1">
 			<div id="vegas-slider" data-dots="true">
 				<div class="vegas-control">
-					<span id="vegas-control__prev" class="vegas-control__btn">Anterior</span>
+					<span id="vegas-control__prev" class="vegas-control__btn">Anerior</span>
 					<span id="vegas-control__next" class="vegas-control__btn">Siguiente</span>
 				</div>
 			</div>
@@ -137,7 +137,23 @@
 						</div>
 					</div>
 				</div>
+				<div class="start-screen__content start-screen__content-first">
+					<div class="v-align">
+						<div class="v-middle">
+							<div class="container">
+								<div class="row justify-content-left text-left">
+									<div class="col-12 col-xl-10">
+										<p class="title">Grupo Kasto Molinos</p>
 
+										<p class="subtitle">
+											¡Sabemos a trigo…Sabemos de trigo!
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="start-screen__content start-screen__content-first">
 					<div class="v-align">
 						<div class="v-middle">
@@ -156,27 +172,6 @@
 					</div>
 				</div>
 
-				<div class="start-screen__content start-screen__content-first">
-					<div class="v-align">
-						<div class="v-middle">
-							<div class="container">
-								<div class="row justify-content-left text-left">
-									<div class="col-12 col-xl-10">
-										<p class="title">Grupo Kasto Molinos</p>
-
-										<p class="subtitle">
-											¡Sabemos a trigo…Sabemos de trigo!
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				
-
-				
 			</div>
 
 			<!-- defaul vegas styles -->
@@ -281,6 +276,11 @@
 					opacity: 0;
 					text-align: center;
 					color: #fff;
+					-webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+					-moz-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+					-ms-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+					-o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+					transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 				}
 
 				.start-screen__content.active
@@ -291,6 +291,11 @@
 					right: auto;
 					visibility: visible;
 					opacity: 1;
+					-webkit-transition: opacity .5s ease-in-out .2s,visibility .3s ease-in-out;
+					-moz-transition: opacity .5s ease-in-out .2s,visibility .3s ease-in-out;
+					-ms-transition: opacity .5s ease-in-out .2s,visibility .3s ease-in-out;
+					-o-transition: opacity .5s ease-in-out .2s,visibility .3s ease-in-out;
+					transition: opacity .5s ease-in-out .2s,visibility .3s ease-in-out;
 				}
 
 				.start-screen__content .title,
@@ -629,7 +634,7 @@
 			<!-- end section -->
 
 			<!-- start section -->
-			<section class="section section--no-pt">
+			<!--<section class="section section--no-pt section--custom-1">-->
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
@@ -639,7 +644,6 @@
 						</div>
 					</div>
 				</div>
-			</section>
 			<!-- end section -->
 
 			<!-- start section -->
@@ -650,25 +654,26 @@
 							<div class="col-MB-30">
 								<h2>Nuestra filosofía</h2>
 							</div>
-							<h4>Misión</h4>
+							<i class='fas fa-crosshairs' style='font-size:15px'></i>
+							<h4 style="display: inline-block;">Misión</h4>
 
 							<p>
-								Elaborar harinas y derivados de trigo con la más alta calidad e inocuidad, buscando la mejora continua y el bienestar de nuestra comunidad.  
+								Elaborar harinas y derivados de trigo con la más alta calidad e inocuidad, buscando la mejora continua y el bienestar de nuestra comunidad. 
 							</p>
 
-							<h4>Visión</h4>
+							<i class='fas fa-eye' style='font-size:15px'></i>
+							<h4 style="display: inline-block;">Visión</h4>
 
 							<p>
-								Ser el líder en el occidente y centro del país en la producción de harinas y derivados de trigo, ofreciendo el mejor servicio, calidad e inocuidad.   
+								Ser el líder en el occidente y centro del país en la producción de harinas y derivados de trigo, ofreciendo el mejor servicio, calidad e inocuidad. 
 							</p>
 
-
-							<p class="d-lg-none"><img class="img-fluid" src="../img/home_img/filosofia.jpg" alt="demo" /></p>
+							<p class="d-lg-none"><img class="img-fluid" src="../img/home_img/filosofia.jpg" alt="demo"/></p>
 
 							<p class="col-lg-MB-20">&nbsp;</p>
 
 							<p>
-								<a class="custom-btn primary big" href="filosofia.html">Leer Más</a>
+								<a class="custom-btn primary big" href="#">Leer Más</a>
 							</p>
 						</div>
 					</div>
@@ -679,124 +684,154 @@
 			<!-- end section -->
 
 			<!-- start section -->
-			<section class="section section--background-base-light section--background-logo">
-				<div class="container">
-					<div class="section-heading section-heading--center">
-						<h2 class="title">Historia </h2>
-					</div>
-
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="feedbacks feedbacks--slider feedbacks--style-2">
+			<section class=" section section--background-base-light section jarallax" data-speed="0.4" data-img-position="50% 50%" style="padding: 0;">
+					<div class="row justify-content-md-center">
+						<div class="col-lg-10">
+							<div class="feedbacks feedbacks--slider feedbacks--style-1">
 								<div class="owl-carousel">
 									<!-- start item -->
-									<div class="timeline">
-										<div class="timeline__inner">
-											<div class="row">
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1975</p>
+									<article class="feedback__item" style="color: #777;">
+										<!-- start section -->
+										<section class="section section--background-base-light "> <!--section--background-logo-->
+												<div class="section-heading section-heading--left container">
+													<h2 class="title">Historia</h2>
+												</div>
 
-														<p>
-															Grupo Kasto inicia operaciones en la molienda de trigo por medio de una co-inversión en Harinera de Atotonilco.
-														</p>
+												<div class="timeline">
+													<div class="timeline__inner">
+														<div class="row">
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1975</p>
+																	<!--<h4 class="timeline__title">Smells Racy Free Announcing</h4>-->
+																	<p>
+																		Grupo Kasto inicia operaciones en la molienda de trigo por medio de una co-inversión en Harinera de Atotonilco.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1984 </p>
+																	<p>
+																		Se adquiere Molino Guadalajara, antes Harinera de Occidente.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1985</p>
+																	<p>
+																		Se adquiere Molino Central, con una capacidad de producción de molienda instalada de 42,000 toneladas de trigo anuales.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1989</p>
+																	<p>
+																		Adquisición de Molino San Rafael, en el estado de Michoacán. 
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+														</div>
 													</div>
 												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1984</p>
-
-														<p>
-															Se adquiere Molino Guadalajara, antes Harinera de Occidente. 
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1985</p>
-
-														<p>
-															Se adquiere Molino Central, con una capacidad de producción de molienda instalada de 42,000 toneladas de trigo anuales
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1989</p>
-
-														<p>
-															Adquisición de Molino San Rafael, en el estado de Michoacán. 
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-											</div>
-										</div>
-									</div>
+										</section>
+										<!-- end section -->
+									</article>
 									<!-- end item -->
 
 									<!-- start item -->
-									<div class="timeline">
-										<div class="timeline__inner">
-											<div class="row">
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1995</p>
+									<article class="feedback__item" style="color: #777;">
+										<!-- start section -->
+										<section class="section section--background-base-light">
+												<div class="section-heading section-heading--left container">
+													<h2 class="title">Historia</h2>
+												</div>
 
+												<div class="timeline">
+													<div class="timeline__inner">
+														<div class="row">
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1995</p>
+																	<!--<h4 class="timeline__title">Smells Racy Free Announcing</h4>-->
+																	<p>
+																		Molino de trigo Jiquilpan se incorporó a Grupo Kasto.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
 
-														<p>
-															Molino de trigo Jiquilpan se incorporó a Grupo Kasto.
-														</p>
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">1999</p>
+																	<p>
+																		Se creo el departamento de servicio técnico a clientes
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+															<!-- start item -->
+															<div class="col-md-3">
+																<div class="timeline__item">
+																	<p class="timeline__year">2000</p>
+																	<p>
+																		Se unificaron los laboratorios de planta Central y Guadalajara, para tener un laboratorio más completo.
+																	</p>
+																</div>
+															</div>
+															<!-- end item -->
+
+														</div>
 													</div>
 												</div>
-												<!-- end item -->
+										</section>
+										<!-- end section -->
 
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1999</p>
-
-														<p>
-															Se creo el departamento de servicio técnico a clientes. 
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">2000</p>
-
-														<p>
-															Se unificaron los laboratorios de planta Central y Guadalajara, para tener un laboratorio más completo.
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-											</div>
-										</div>
-									</div>
+									</article>
 									<!-- end item -->
+
+									<!-- start item --
+									<article class="feedback__item">
+										<div class="feedback__author">
+											<div class="feedback__author__photo  mx-auto">
+												<img class="circled  img-fluid" src="../img/users_photos/4.png" height="140" width="140" alt="demo" />
+											</div>
+
+											<h4 class="feedback__author__name">Alex Roberts</h4>
+
+											<p class="feedback__author__position">Farmer, AgroHolding</p>
+										</div>
+
+										<div class="feedback__text">
+											<p>
+												“Absorbent lower warranty smart deluxe lasting sporty fast customer spring rated. Free every challenge your spicey racy. Introducing handcrafted credit-card like supreme monster just hurry fresh outlasts flip quality. Value far mouthwatering wherever try offer ultra aroma Introducing handcrafted credit-card like supreme monster
+											</p>
+										</div>
+									</article>
+									!-- end item -->
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 			</section>
 			<!-- end section -->
-
 
 			<!-- start section -->
 			<section class="section section--no-pt section--no-pb">
@@ -1046,135 +1081,58 @@
 						<h2 class="title">Publicaciones</h2>
 					</div>
 
-					<div class="blog blog--style-2">
-						<div class="row align-items-md-center">
-							<!-- start item -->
-							<div class="col-xl-6">
-								<div class="blog__item">
-									<div class="row align-items-md-center">
-										<div class="col-md-6 col-lg-8 col-xl-6">
-											<div class="blog__entry">
-												<div class="blog__post-date">
-													<span>03</span>
-													<span>OCT<br />2018</span>
-												</div>
+					<div class="blog blog--style-3">
+						<div class="blog__inner">
+							<div class="row no-gutters">
+								<!-- start item -->
+								<div class="col-md-6 col-lg-4">
+									<div class="blog__item">
+										<figure>
+											<img src="../img/blank.gif" style="background-image: url('../img/home_img/13-may-2019.jpeg');" alt="demo">
+										</figure>
 
-												<h3 class="blog__entry__title"><a href="blog_post.html">Convención de ventas</a></h3>
+										<div class="blog__entry">
+											<span class="blog__entry__meta">May 13, 2019  /  4 Comments</span>
 
-												<span class="blog__entry__meta">Ventas</span>
-
-												<p>
-													Grupo Kasto Molinos reunió a su equipo de agentes de venta en el hotel Ejecutivo Express, donde tomo lugar su primera convención de ventas
-												</p>
-											</div>
-										</div>
-
-										<div class="col-md-6 col-lg-4 col-xl-6">
-											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home_img/03-oct-18.jpeg');" alt="demo">
-											</figure>
+											<h3 class="blog__entry__title  h4"><a href="blog_post.html">Expro Inpan Leo</a></h3>
 										</div>
 									</div>
 								</div>
-							</div>
-							<!-- end item -->
+								<!-- end item -->
 
-							<!-- start item -->
-							<div class="col-xl-6">
-								<div class="blog__item">
-									<div class="row align-items-md-center">
-										<div class="col-md-6 col-lg-8 col-xl-6">
-											<div class="blog__entry">
-												<div class="blog__post-date">
-													<span>18</span>
-													<span>OCT<br />2019</span>
-												</div>
+								<!-- start item -->
+								<div class="col-md-6 col-lg-4">
+									<div class="blog__item">
+										<figure>
+											<img src="../img/blank.gif" style="background-image: url('../img/home_img/18-oct-2019.png');" alt="demo">
+										</figure>
 
-												<h3 class="blog__entry__title"><a href="blog_post.html">Feria tradicional del pan</a></h3>
+										<div class="blog__entry">
+											<span class="blog__entry__meta">Oct 18, 2019  /  4 Comments</span>
 
-												<span class="blog__entry__meta">Ventas</span>
-
-												<p>
-													Nuevamente, Grupo Kasto Molinos participó como patrocinador y expositor en la Tradicional Feria del Pan en Morelia, Michoacán.
-												</p>
-											</div>
-										</div>
-
-										<div class="col-md-6 col-lg-4 col-xl-6">
-											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home_img/18-oct-2019.png');" alt="demo">
-											</figure>
+											<h3 class="blog__entry__title  h4"><a href="blog_post.html">Feria tradicional del pan</a></h3>
 										</div>
 									</div>
 								</div>
-							</div>
-							<!-- end item -->
+								<!-- end item -->
 
-							<!-- start item -->
-							<div class="col-xl-6">
-								<div class="blog__item">
-									<div class="row align-items-md-center">
-										<div class="col-md-6 col-lg-8 col-xl-6">
-											<div class="blog__entry">
-												<div class="blog__post-date">
-													<span>13</span>
-													<span>MAY<br />2019</span>
-												</div>
+								<!-- start item -->
+								<div class="col-md-6 col-lg-4">
+									<div class="blog__item">
+										<figure>
+											<img src="../img/blank.gif" style="background-image: url('../img/home_img/13-oct-2020.jpeg');" alt="demo">
+										</figure>
 
-												<h3 class="blog__entry__title"><a href="blog_post.html">Expro Inpan Leon</a></h3>
+										<div class="blog__entry">
+											<span class="blog__entry__meta">Oct 13, 2020  /  4 Comments</span>
 
-												<span class="blog__entry__meta">Ventas</span>
-
-												<p>
-													Expro Inpan es la exposición especializada de proveeduría en la industria del pan, café y chocolate.
-												</p>
-											</div>
-										</div>
-
-										<div class="col-md-6 col-lg-4 col-xl-6">
-											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home_img/13-may-2019.jpeg');" alt="demo">
-											</figure>
+											<h3 class="blog__entry__title  h4"><a href="blog_post.html">Expro Inpan Leon 2020</a></h3>
 										</div>
 									</div>
 								</div>
+								<!-- end item -->
+
 							</div>
-							<!-- end item -->
-
-							<!-- start item -->
-							<div class="col-xl-6">
-								<div class="blog__item">
-									<div class="row align-items-md-center">
-										<div class="col-md-6 col-lg-8 col-xl-6">
-											<div class="blog__entry">
-												<div class="blog__post-date">
-													<span>13</span>
-													<span>OCT<br />2020</span>
-												</div>
-
-												<h3 class="blog__entry__title"><a href="blog_post.html">Expro Inpan Leon 2020</a></h3>
-
-												<span class="blog__entry__meta">Ventas</span>
-
-												<p>
-													Por motivos de COVID-19, el evento de Expro Inpan pospuso su 4ta edición de mayo a octubre.
-												</p>
-											</div>
-										</div>
-
-										<div class="col-md-6 col-lg-4 col-xl-6">
-											<figure>
-												<img src="../img/blank.gif" style="background-image: url('../img/home_img/13-oct-2020.jpeg');" alt="demo">
-											</figure>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- end item -->
-						</div>
-
-						<div class="text-center">
-							<a id="blog-more-btn" class="custom-btn big primary" href="blog.html">Ver todas las publicaciones</a>
 						</div>
 					</div>
 				</div>
@@ -1184,7 +1142,7 @@
 
 			<!-- start section -->
 			<section class="section jarallax" data-speed="0.4" data-img-position="50% 50%" style="background-image: url('../img/bg/bg_9.jpg');">
-				<div class="container" style="height: 424px;" >
+				<div class="container">
 					<div class="section-heading section-heading--center section-heading--white">
 						<h2 class="title">What People Says</h2>
 					</div>
@@ -1307,6 +1265,21 @@
 				</div>
 			</section>
 			<!-- end section -->
+			
+			<!-- start section -->
+			<a id="spy-get-in-touch" class="ancor"></a>
+			<section class="section-contact">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<div class="item map-container">
+								<iframe src="https://www.google.com/maps/d/embed?mid=1KpQfZ7MW1oEaQYh0VVasXYMAuACoP5Co" width="100%" height="480"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end section -->
 		</main>
 
 		<!-- start footer -->
@@ -1387,7 +1360,7 @@
 										<div class="social-btns__inner" style="color: #000;">
 											<a class="fontello-facebook" href="#" target="_blank"></a>
 											<a class="fontello-instagram" href="#" target="_blank"></a>
-											<a class="fontello-whatsapp" href="#" target="_blank"></a>
+											<a class="fontello-twitter" href="#" target="_blank"></a>
 										</div>
 									</div>
 								</div>

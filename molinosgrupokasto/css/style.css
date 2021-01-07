@@ -2481,7 +2481,7 @@ h4.h3 {
 }
 a {
   background-color: transparent;
-  color: #4a8b71;
+  color: #0f70b7;
   outline: 0;
   -webkit-transition: color .3s ease-in-out;
   -o-transition: color .3s ease-in-out;
@@ -2489,7 +2489,7 @@ a {
 }
 a:focus,
 a:hover {
-  color: #4a8b71;
+  color: #0f70b7;
   text-decoration: none;
   outline: 0
 }
@@ -2700,7 +2700,7 @@ img {
   padding-bottom: 100%
 }
 .pattern {
-  background-color: #4a8b71
+  background-color: #000 /*#4a8b71*/
 }
 .map-container {
   position: relative
@@ -3082,7 +3082,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 1;
-  font-size: 4rem;
+  font-size: 3rem;
   color: inherit
 }
 .intro__subtitle {
@@ -3827,6 +3827,34 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   width: 55px;
   background-image: url(../img/ico/P-ICONO-TORTILLA.png)
 }
+.product__item__ico--6:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-dona.png)
+}
+.product__item__ico--7:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-pastel-vainilla.png)
+}
+.product__item__ico--8:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-muffin-vainilla.png)
+}
+.product__item__ico--9:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-muffin-chocolate.png)
+}
+.product__item__ico--10:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-rosca.png)
+}
+.product__item__ico--11:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-pan-muerto.png)
+}
+.product__item__ico--12:before {
+  width: 55px;
+  background-image: url(../img/products_img/i-bizcocho.png)
+}
 .product__item__title {
   font-weight: 500
 }
@@ -3956,7 +3984,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   vertical-align: top;
   line-height: 1;
   font-size: 4.5rem;
-  color: #4a8b71
+  color: #0f70b7
 }
 .page-contacts .contact__item__ico:before {
   vertical-align: middle
@@ -4109,7 +4137,8 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: #555
+  color: #555;
+  box-shadow: 5px 5px 5px 6px grey;
 }
 #footer .footer__inner {
   margin-bottom: -50px
