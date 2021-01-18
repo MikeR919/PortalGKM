@@ -22,6 +22,8 @@
 
 		<!-- CSS
 		================================================== -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 		<link rel="stylesheet" href="../css/style.css" type="text/css">
 
 		<!-- Load google font
@@ -48,6 +50,7 @@
 			_html.className = _html.className.replace("no-js","js");
 		</script>
 		<script type="text/javascript" src="../js/device.min.js"></script>
+
 	</head>
 	<body class="page page-home">
 
@@ -68,25 +71,14 @@
 
 							<div class="submenu">
 								<ul>
-									<li><a href="#">¿Quiénes somos?</a></li>
+									<li><a href="about.html">¿Quiénes somos?</a></li>
 									<li><a href="filosofia.html">Filosofía</a></li>
 									<li><a href="certificaciones.html">Certificaciones</a></li>
 								</ul>
 							</div>
 						</li>
-						<li>
-							<a href="javascript:void(0);">Galeria</a>
 
-							<div class="submenu">
-								<ul>
-									<li><a href="gallery_1.html">2 Columns</a></li>
-									<li><a href="gallery_2.html">3 Columns</a></li>
-									<li><a href="gallery_3.html">4 Columns</a></li>
-									<li><a href="gallery_4.html">Masonry</a></li>
-									<li><a href="gallery_5.html">Masonry 2</a></li>
-								</ul>
-							</div>
-						</li>
+						<li><a href="gallery_5.html">Galeria</a></li>
 						<li>
 							<a href="javascript:void(0);">Productos</a>
 
@@ -94,7 +86,7 @@
 								<ul>
 									<li><a href="p_trigo.html">Harina de trigo</a></li>
 									<li><a href="p_mix.html">Bakery MIX</a></li>
-									<li><a href="products.html">Sabor de la abuela</a></li>
+									<li><a href="p_abuela.html">Sabor de la abuela</a></li>
 								</ul>
 							</div>
 						</li>
@@ -103,7 +95,7 @@
 						<li><a class="fontello-facebook" href="https://www.facebook.com/grupokastomolinos" target="_blank"></a></li>
 						<li><a class="fontello-instagram" href="https://www.instagram.com/grupokasto/" target="_blank"></a></li>
 						<li><a class="fontello-whatsapp" href="#" target="_blank"></a></li>
-						<li class="li-btn"><a class="custom-btn primary" href="#spy-get-in-touch">Contáctanos</a></li>
+						<li class="li-btn"><a class="custom-btn primary" href="contacts.html">Contáctanos</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -413,7 +405,7 @@
 
 					.start-screen__content .title
 					{
-						font-size: 130px;
+						font-size: 100px;
 						letter-spacing: 20px;
 					}
 				}
@@ -454,7 +446,7 @@
 									slides = [
 										{
 											name: "img 1",
-											src: '../img/home_img/banner2.JPG'
+											src: '../img/home_img/banner2.jpg'
 										},
 										{
 											name: "img 2",
@@ -679,124 +671,144 @@
 			<!-- end section -->
 
 			<!-- start section -->
-			<section class="section section--background-base-light section--background-logo" style="height: 30em;">
+			<section class="section section--background-base-light section--background-logo">
 				<div class="container">
-					<div class="section-heading section-heading--center">
-						<h2 class="title">Historia </h2>
+						<div class="section-heading section-heading--left">
+						<h2 class="title">Historia</h2>
 					</div>
 
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="feedbacks feedbacks--slider feedbacks--style-2">
-								<div class="owl-carousel">
-									<!-- start item -->
-									<div class="timeline">
-										<div class="timeline__inner">
-											<div class="row">
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1975</p>
+					<div class="glider-contain multiple timeline">
+						<button class="glider-prev">
+							<i class="fa fa-chevron-left"></i>
+						</button>
+						<div class="timeline__inner">
+							<div class="glider_linea">
+								<div class="timeline__item">
+									<p class="timeline__year">1975</p>
 
-														<p>
-															Grupo Kasto inicia operaciones en la molienda de trigo por medio de una co-inversión en Harinera de Atotonilco.
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
+									<p>
+										Grupo Kasto inicia operaciones en la molienda de trigo por medio de una co-inversión en Harinera de Atotonilco.
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1984</p>
 
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1984</p>
+									<p>
+										Se adquiere Molino Guadalajara, antes Harinera de Occidente. 
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1985</p>
 
-														<p>
-															Se adquiere Molino Guadalajara, antes Harinera de Occidente. 
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
+									<p>
+										Se adquiere Molino Central, con una capacidad de producción de molienda instalada de 42,000 toneladas de trigo anuales
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1987</p>
 
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1985</p>
+									<p>
+										Se adquiere el primer molino propio llamado Molino Central, ubicado en Zapopan, Jalisco. 
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1989</p>
 
-														<p>
-															Se adquiere Molino Central, con una capacidad de producción de molienda instalada de 42,000 toneladas de trigo anuales
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
+									<p>
+										Se adquiere Molino de trigo San Rafael, en Michoacán, un molino con casi 80 años de antigüedad.
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1990</p>
 
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1989</p>
+									<p>
+										Se adquiere Molino de trigo La Blanca, en Michoacán.
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1995</p>
 
-														<p>
-															Adquisición de Molino San Rafael, en el estado de Michoacán. 
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-											</div>
-										</div>
-									</div>
-									<!-- end item -->
+									<p>
+										Molino Guadalajara, antes harinera de Occidente, pasa a ser parte de Grupo Kasto. Ubicado en Guadalajara, Jalisco.
+									</p>
+								</div>
+								<div class="timeline__item">
+									<p class="timeline__year">1997</p>
 
-									<!-- start item -->
-									<div class="timeline">
-										<div class="timeline__inner">
-											<div class="row">
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1995</p>
+									<p>
+										Se adquiere Molino de trigo Jiquilpan, ubicado en Michoacán.
+									</p>
+								</div>
+
+								<div class="timeline__item">
+									<p class="timeline__year">1997</p>
+
+									<p>
+										Se adquiere Molino de trigo Jiquilpan, ubicado en Michoacán.
+									</p>
+								</div>
+
+								<div class="timeline__item">
+									<p class="timeline__year">1999</p>
+
+									<p>
+										Se creo el departamento de servicio técnico a clientes. 
+									</p>
+								</div>
+
+								<div class="timeline__item">
+									<p class="timeline__year">2000</p>
+
+									<p>
+										Se unificaron los laboratorios de planta Central y Guadalajara, para tener un laboratorio más completo.
+									</p>
+								</div>
 
 
-														<p>
-															Molino de trigo Jiquilpan se incorporó a Grupo Kasto.
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
+								<div class="timeline__item">
+									<p class="timeline__year">2012</p>
 
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">1999</p>
+									<p>
+										 Se obtienen las certificaciones de ISO 9001 y HACCP (Análisis de Peligros y Puntos Críticos de Control).
+									</p>
+								</div>
 
-														<p>
-															Se creo el departamento de servicio técnico a clientes. 
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
+								<div class="timeline__item">
+									<p class="timeline__year">2018</p>
 
-												<!-- start item -->
-												<div class="col-md-3">
-													<div class="timeline__item">
-														<p class="timeline__year">2000</p>
+									<p>
+										Homologación y renovación de imagen de todos los productos.
+									</p>
+								</div>
 
-														<p>
-															Se unificaron los laboratorios de planta Central y Guadalajara, para tener un laboratorio más completo.
-														</p>
-													</div>
-												</div>
-												<!-- end item -->
-											</div>
-										</div>
-									</div>
-									<!-- end item -->
+								<div class="timeline__item">
+									<p class="timeline__year">2019</p>
+
+									<p>
+										Nace Grupo Kasto Molinos como razón social a raíz de la fusión de Molino Guadalajara, Molino Central y Molino de trigo Jiquilpan
+									</p>
+								</div>
+
+								<div class="timeline__item">
+									<p class="timeline__year">2020</p>
+
+									<p>
+										Inicia la construcción de un nuevo molino en La Barca, Jalisco, llamado Molino La Concepción.
+									</p>
 								</div>
 							</div>
 						</div>
+
+						<button class="glider-next">
+							<i class="fa fa-chevron-right"></i>
+						</button>
+
+						<div id="dots" class="glider-dots"></div>
+
 					</div>
 				</div>
 			</section>
 			<!-- end section -->
-
 
 			<!-- start section -->
 			<section class="section section--no-pt section--no-pb">
@@ -1258,107 +1270,75 @@
 				</div>
 			</section>
 			<!-- end section -->
-			
+			<hr>
 
 			<!-- start section -->
-			<section class="section">
+			<section class="section" style="background-color: #ccc;">
 				<div class="container">
-					<div class="row justify-content-md-center">
-						<div class="col-lg-10">
-							<div class="feedbacks feedbacks--slider feedbacks--style-2">
-								<div class="owl-carousel">
-									<!-- start item -->
-									<div class="partners">
-										<div class="partners__inner">
-											<div class="row">
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-1.png" alt="demo" />
-												</div>
-												<!-- end item -->
 
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-2.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-3.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-4.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-5.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-6.png" alt="demo" />
-												</div>
-												<!-- end item -->
-											</div>
-										</div>
-									</div>
-									<!-- end item -->
-
-									<!-- start item -->
-									<div class="partners">
-										<div class="partners__inner">
-											<div class="row">
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-7.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-8.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-9.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-10.png" alt="demo" />
-												</div>
-												<!-- end item -->
-
-												<!-- start item -->
-												<div class="col-6 col-sm-4 col-lg-2">
-													<img class="img-fluid" src="../img/partners_img/icono-marca-11.png" alt="demo" />
-												</div>
-												<!-- end item -->
-											</div>
-										</div>
-									</div>
-									<!-- end item -->
-								</div>
+					<div class="glider-contain multiple">
+						<button class="glider-prev">
+							<i class="fa fa-chevron-left"></i>
+						</button>
+						<div id="glider" style="opacity: 0.5">
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono1.png" alt="demo"/>
 							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono2.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono3.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono4.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono5.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono6.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono7.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono8.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono9.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono10.png" alt="demo"/>
+							</div>
+
+							<div>
+								<img class="img-fluid"  src="../img/partners_img/icono11.png" alt="demo"/>
+							</div>
+
 						</div>
+						<button class="glider-next">
+							<i class="fa fa-chevron-right"></i>
+						</button>
+
+						<div id="dot" class="glider-dots">xd</div>
+
 					</div>
 				</div>
 			</section>
 			<!-- end section -->
-
 		</main>
 
-	<!-- start footer -->
+		<!-- start footer -->
 		<footer id="footer" class="footer--style-2" style="padding-bottom: 30px;" >
 			<div class="footer__inner">
 				<div class="container">
@@ -1447,7 +1427,7 @@
 		</footer>
 		<div class="col-md-12 col-lg-12" style="background-color: #000; height: 80px;">
 			<div class="container" style="">
-				<p class="footer__copy" style="font-size: 1.5rem; color: #fff; padding-top: 25px; padding-bottom: 10px;">© Grupo Kasto Molinos 2021 Derechos Reservados. <br></p> 
+				<p class="footer__copy" style="font-size: 1.5rem; color: #fff; padding-top: 25px; padding-bottom: 10px;">Grupo Kasto Molinos © 2021<br></p> 
 			</div>
 		</div>
 		<!-- end footer -->
@@ -1459,7 +1439,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="../js/jquery-2.2.4.min.js"><\/script>')</script>
 
+		<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="../js/main.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+		<script type="text/javascript" src="../js/app.js"></script>
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
 			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
