@@ -4149,7 +4149,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
   margin-bottom: 50px
 }
 #footer .site-logo {
-  background: url(../img/logogkm_2.png);
+  background: url(../img/logogkm_1.png);
   width: 253px;
   height: 71px
 }
@@ -4200,7 +4200,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 #footer .footer__copy {
   margin-top: 40px;
   line-height: 1.5;
-  font-size: 1.2rem
+  font-size: 1.5rem
 }
 #footer .footer__copy:first-child {
   margin-top: 0
@@ -8539,6 +8539,9 @@ color: #e61644;
   background:#f1cf69;
 }
 
+.corazon{
+color: #282828;
+}
 .corazon:hover{
   color: red;
   animation-name: apexheart;
@@ -8556,7 +8559,18 @@ color: #e61644;
 
 .apexoracle{
   display: inline-block;
+  color:#282828;
 }
+
+.apexoracle > a{
+  text-decoration:none; 
+  color: #282828
+}
+
+.apexoracle > a:hover{
+  color: #0f70b7;
+}
+
 
 .corazonapex{
   width: 20px;
@@ -8566,5 +8580,13 @@ color: #e61644;
 
 
 .glider-next, .glider-prev{
+  display: none;
+}
+
+.apex{
+  padding: 0;
+}
+
+.glider-dots{
   display: none;
 }
