@@ -2659,7 +2659,7 @@ img {
   height: auto
 }
 .section--background-logo {
-  background: url(../img/img_1.png) center right 40px no-repeat
+  background: url(../img/bg_historia.png) center right 40px no-repeat
 }
 .section--background-base {
   background-color: #4a8b71
@@ -3856,6 +3856,22 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .product__item__ico--12:before {
   width: 55px;
   background-image: url(../img/products_img/i-bizcocho.png)
+}
+.product__item__ico--13:before {
+  width: 55px;
+  background-image: url(../img/products_img/icono1.jpg)
+}
+.product__item__ico--14:before {
+  width: 55px;
+  background-image: url(../img/products_img/icono2.jpg)
+}
+.product__item__ico--15:before {
+  width: 55px;
+  background-image: url(../img/products_img/icono3.jpg)
+}
+.product__item__ico--16:before {
+  width: 55px;
+  background-image: url(../img/products_img/icono4.jpg)
 }
 .product__item__title {
   font-weight: 500
@@ -5571,7 +5587,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     padding-top: 79px
   }
   .section--custom-1 {
-    background: url(../img/bg_02.png) right bottom 30%/80% no-repeat
+    background: url(../img/bg_slogan.png) right bottom 30%/80% no-repeat
   }
   .start-screen--style-2 {
     padding-top: 90px
@@ -8531,14 +8547,6 @@ color: #e61644;
 }
 
 
-.glider-dot.active{
-  background:#0f70b7;
-}
-
-.glider-dot{
-  background:#f1cf69;
-}
-
 .corazon{
 color: #282828;
 }
@@ -8578,15 +8586,20 @@ color: #282828;
   text-align: center;
 }
 
-
-.glider-next, .glider-prev{
-  display: none;
-}
-
 .apex{
   padding: 0;
 }
 
 .glider-dots{
   display: none;
+}
+
+.brands > img{
+  max-width: 100px;
+}
+
+.borde_login{
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 10px;
 }
