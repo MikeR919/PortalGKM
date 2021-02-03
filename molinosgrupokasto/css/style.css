@@ -8558,54 +8558,6 @@ color: #e61644;
   color: #fdf1e1;
 }
 
-
-.corazon{
-color: #282828;
-}
-.corazon:hover{
-  color: red;
-  animation-name: apexheart;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes apexheart{
-  0%   {font-size:1.5rem;}
-  25%  {font-size:1.8rem;}
-  50%  {font-size:1.5rem;}
-  75%  {font-size:1.8rem;}
-  100% {font-size:1.5rem;}
-}
-
-.apexoracle{
-  display: inline-block;
-  color:#282828;
-}
-
-.apexoracle > a{
-  text-decoration:none; 
-  color: #282828
-}
-
-.apexoracle > a:hover{
-  color: #0f70b7;
-}
-
-
-.corazonapex{
-  width: 20px;
-  padding: 2px;
-  text-align: center;
-}
-
-.apex{
-  padding: 0;
-}
-
-.glider-dots{
-  display: none;
-}
-
 .brands > img{
   max-width: 100px;
 }
@@ -8615,3 +8567,91 @@ color: #282828;
   border-color: #ccc;
   border-radius: 10px;
 }
+
+/*--------------------------------------------------------------
+# style apex 
+--------------------------------------------------------------*/
+.footer-apex {line-height: 16px;}
+.footer-apex .fa.fa-heart { vertical-align: top; 
+    line-height: 16px; width: 16px; text-align: center; 
+    transition: color 1s ease; }
+.footer-apex:hover .fa.fa-heart { color: #FF0000; animation: pulse 1s infinite; }
+ 
+@keyframes pulse {
+    0% { transform: scale(0.9); }
+    70% { transform: scale(1.25); }
+    100% { transform: scale(0.9); }
+}
+
+
+
+.site-need-help a {
+    color: #eddd5e;
+    font-size: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.site-need-help a:hover {
+    color: #c5c9c4;
+}
+
+
+.site-directory a {
+    color: #878986;
+    font-size: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.site-directory a:hover {
+    color: #5B8C51;
+}
+
+/*--------------------------------------------------------------
+# footer Apex
+--------------------------------------------------------------*/
+.site-footer_bottom {
+    position: relative;
+    display: block;
+    padding: 28px 0 29px;
+    color: #282828;
+}
+
+.site-footer_bottom .container {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+
+.footer-apex a {
+    color: #282828;
+    font-size: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-decoration:none;
+}
+
+.site-footer_bottom_copyright a {
+    color: #282828;
+    font-size: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.site-footer_bottom_copyright a:hover {
+    color: #0f70b7;
+}
+
+@media (max-width:736px) {
+  .site-footer_bottom .container {
+    display: inline;
+    text-align: center;
+    }
+    .site-footer_bottom {
+    padding: 5px 0 5px;
+
+}
+  }
