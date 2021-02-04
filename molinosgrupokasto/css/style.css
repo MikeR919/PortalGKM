@@ -5587,7 +5587,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     padding-top: 79px
   }
   .section--custom-1 {
-    background: url(../img/bg_slogan.png) right bottom 30%/80% no-repeat
+    background: url(../img/bg_slogan.png) right bottom 5%/80% no-repeat
   }
   .start-screen--style-2 {
     padding-top: 90px
@@ -8645,7 +8645,7 @@ color: #e61644;
     color: #0f70b7;
 }
 
-@media (max-width:736px) {
+@media (max-width:767px) {
   .site-footer_bottom .container {
     display: inline;
     text-align: center;
