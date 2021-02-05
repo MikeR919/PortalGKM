@@ -1762,10 +1762,26 @@ a.text-dark:hover {
   width: 100%
 }
 .owl-theme .owl-nav {
-  margin-top: 10px;
+  /*margin-top: 10px;
   text-align: center;
-  -webkit-tap-highlight-color: transparent
+  -webkit-tap-highlight-color: transparent;*/
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
 }
+
+ .owl-nav .owl-prev {
+  position: absolute;
+  left: -5px;
+  display: block;
+ }
+  .owl-nav .owl-next {
+  position: absolute;
+  right:-5px;
+  display: block;
+  }
 .owl-theme .owl-nav [class*=owl-] {
   color: #fff;
   font-size: 14px;
@@ -8654,4 +8670,14 @@ color: #e61644;
     padding: 5px 0 5px;
 
 }
+  }
+
+  .siguiente{
+    display: block;
+    text-align: center;
+    background-color: #efc852;
+    border-radius: 50%;
+    padding: 2px;
+    width: 22px;
+    height: 22px;
   }

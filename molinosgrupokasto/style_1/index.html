@@ -1355,7 +1355,8 @@
                 </div>
             </div>
         	</div>
-		<!-- end footer -->
+		<!-- end footer -->	
+		</div>
 
 
 		<div id="btn-to-top-wrap" style="">
@@ -1379,12 +1380,19 @@
 			ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 		</script>
 		<script type="text/javascript">
+			const nextIcon= "<div class='siguiente'><i class='fas fa-angle-right' style='font-size:18px; color: #fff;'></i></div>";
+			const prevIcon= "<div class='siguiente'><i class='fas fa-angle-left' style='font-size:18px; color: #fff;'></i></div>";
+
 			$('.owl-historia').owlCarousel({
 				loop:true,
 				nav:true,
 				autoplay:true,
 				autoplayTimeout: 5000,
 				dots: false,
+				navText: [
+				prevIcon,
+				nextIcon
+				],
 				responsive:{
 				    0:{
 				        items:1
@@ -1396,7 +1404,7 @@
 				        items:4
 				    }
 				}
-				})
+				});
 		</script>
 	</body>
 </html>
