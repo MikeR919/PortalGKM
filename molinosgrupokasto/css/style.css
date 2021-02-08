@@ -1765,23 +1765,14 @@ a.text-dark:hover {
   /*margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent;*/
+
   position: absolute;
-  top: 85%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform:translate(-50%,-50%);
   width: 100%;
 }
 
- .owl-nav .owl-prev {
-  position: absolute;
-  left: -5px;
-  display: block;
- }
-  .owl-nav .owl-next {
-  position: absolute;
-  right:-5px;
-  display: block;
-  }
 .owl-theme .owl-nav [class*=owl-] {
   color: #fff;
   font-size: 14px;
@@ -1793,6 +1784,37 @@ a.text-dark:hover {
   -webkit-border-radius: 3px;
           border-radius: 3px
 }
+
+.owl-nav .owl-prev{
+  position: absolute;
+  left:-50px;
+  display: block;
+}
+
+.owl-nav .owl-next{
+  position: absolute;
+  right:-50px;
+  display: block;
+}
+
+@media (max-width:574px) {
+    .owl-theme .owl-nav {
+    position: absolute;
+    top: 82%;
+  }
+    .owl-nav .owl-prev{
+    position: absolute;
+    left:0px;
+    display: block;
+  }
+
+  .owl-nav .owl-next{
+    position: absolute;
+    right:0px;
+    display: block;
+  }
+}
+
 .owl-theme .owl-nav [class*=owl-]:hover {
   background: #869791;
   color: #fff;
@@ -4484,7 +4506,6 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .partners img {
   line-height: 1;
   margin-bottom: 30px;
-  opacity: 0.5;
 
 }
 .feedbacks--style-1 {
@@ -4626,22 +4647,22 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .counters--style-1 .counter__item__ico--1:before {
   width: 60px;
   height: 110px;
-  background-image: url(../img/ico/ico_12.png)
+  background-image: url(../img/ico/i_clientes.png)
 }
 .counters--style-1 .counter__item__ico--2:before {
   width: 138px;
   height: 89px;
-  background-image: url(../img/ico/ico_13.png)
+  background-image: url(../img/ico/i_estados.png)
 }
 .counters--style-1 .counter__item__ico--3:before {
   width: 125px;
   height: 98px;
-  background-image: url(../img/ico/ico_14.png)
+  background-image: url(../img/ico/i_molinos.png)
 }
 .counters--style-1 .counter__item__ico--4:before {
   width: 148px;
   height: 71px;
-  background-image: url(../img/ico/ico_15.png)
+  background-image: url(../img/ico/i_cedis.png)
 }
 .counters--style-1 .counter__item__count {
   font-size: 3.9rem
@@ -5571,14 +5592,14 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     padding-top: 0
   }
 }
-@media only screen and (min-width:768px) and (prefers-reduced-motion:reduce) {
+@media only screen and (min-width:992px) and (prefers-reduced-motion:reduce) {
   #top-bar__navigation .submenu {
     -webkit-transition: none;
     -o-transition: none;
     transition: none
   }
 }
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:992px) {
   .col-md-MB-30 {
     margin-bottom: 30px
   }
@@ -8670,14 +8691,4 @@ color: #e61644;
     padding: 5px 0 5px;
 
 }
-  }
-
-  .siguiente{
-    display: block;
-    text-align: center;
-    background-color: #efc852;
-    border-radius: 50%;
-    padding: 2px;
-    width: 22px;
-    height: 22px;
   }
