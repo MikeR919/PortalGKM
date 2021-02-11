@@ -4413,32 +4413,32 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 .feature--style-2 .feature__item__ico--1:before {
   width: 46px;
   height: 51px;
-  background-image: url(../img/ico/ico_6.png)
+  background-image: url(../img/ico/1-trigo.png)
 }
 .feature--style-2 .feature__item__ico--2:before {
   width: 52px;
   height: 51px;
-  background-image: url(../img/ico/ico_7.png)
+  background-image: url(../img/ico/2-reologicos.png)
 }
 .feature--style-2 .feature__item__ico--3:before {
   width: 40px;
   height: 51px;
-  background-image: url(../img/ico/ico_8.png)
+  background-image: url(../img/ico/3-asesoria.png)
 }
 .feature--style-2 .feature__item__ico--4:before {
   width: 40px;
   height: 51px;
-  background-image: url(../img/ico/ico_9.png)
+  background-image: url(../img/ico/4-fisicoquim.png)
 }
 .feature--style-2 .feature__item__ico--5:before {
   width: 52px;
   height: 51px;
-  background-image: url(../img/ico/ico_10.png)
+  background-image: url(../img/ico/5-pruebas.png)
 }
 .feature--style-2 .feature__item__ico--6:before {
   width: 51px;
   height: 47px;
-  background-image: url(../img/ico/ico_11.png)
+  background-image: url(../img/ico/6-microb.png)
 }
 .feature--style-2 [class*=" col-"]:nth-of-type(2n+1) .feature__item .row,
 .feature--style-2 [class^=col-]:nth-of-type(2n+1) .feature__item .row {
