@@ -3831,7 +3831,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 .product__item--text {
   padding-top: 30px;
-  padding-bottom: 30px
+  padding-bottom: 0px /*30*/
 }
 .product__item__ico {
   display: inline-block;
@@ -4090,7 +4090,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
 }
 .single-content .column {
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 0px /*20*/
 }
 .single-content .details {
   font-weight: 700;
