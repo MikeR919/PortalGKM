@@ -5840,7 +5840,7 @@ form.f1 button[type=submit].custom-btn.primary:not(:hover):not(:focus) {
     margin-top: -35px
   }
   .section--feature {
-    background: url(../img/bg_01.png) center top -50px no-repeat
+    background: url(../img/IDGk_01.png) center top -15px no-repeat;
   }
   .feedback__author {
     float: left;
@@ -8757,4 +8757,25 @@ color: #e61644;
 
 .arrows_carousel_r:hover {
   opacity: 1
+}
+
+.video_button{
+  position: relative;
+  width: 44px;
+  height: 44px;
+  background-color:#f1cf69;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  color: #0f70b7;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  border-radius: 5px;
 }
